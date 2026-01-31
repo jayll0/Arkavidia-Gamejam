@@ -20,6 +20,27 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/UtilityScene/Settings.unity
     guid: 36a2a49c24b1e494d9abe2ba012685ee
+  - enabled: 1
+    path: Assets/Scenes/PlayerSupportScene/Map.unity
+    guid: eef12649142d69d4f8335ea093baca81
+  - enabled: 1
+    path: Assets/Scenes/MapScene/Forest.unity
+    guid: b15a49cd90b7fe341994c33e6ba22ad8
+  - enabled: 1
+    path: Assets/Scenes/MapScene/Graveyard.unity
+    guid: da3f4f3232b893a4192d3ad2d6ff4d2e
+  - enabled: 1
+    path: Assets/Scenes/MapScene/Home.unity
+    guid: 19273e6014b0dcb4882870a1a7acc905
+  - enabled: 1
+    path: Assets/Scenes/MapScene/Ruins.unity
+    guid: c7eba32a66e7fe24a8e69c41525abf04
+  - enabled: 1
+    path: Assets/Scenes/MapScene/Swamp.unity
+    guid: 164ae7f8912033546a22001b0402b19a
+  - enabled: 1
+    path: Assets/Scenes/MapScene/Village.unity
+    guid: ca49da7ed7012c04bb5e06610bc65ffd
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InterpretationXL xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DialogueLines>
+    <GUID>ab01d90b-2867-46a8-b06e-15e7725b9a73</GUID>
+    <output_GUID>493ad6d6-4a18-4f1c-a93f-33b76e4062c9</output_GUID>
+    <Switch_outputs_GUIDs />
+    <action>Start</action>
+    <position>
+      <x>0</x>
+      <y>0</y>
+    </position>
+    <translations />
+  </DialogueLines>
+  <DialogueLines>
+    <GUID>493ad6d6-4a18-4f1c-a93f-33b76e4062c9</GUID>
+    <Switch_outputs_GUIDs />
+    <action>Dialogue</action>
+    <characterId>???</characterId>
+    <position>
+      <x>379.2</x>
+      <y>44</y>
+    </position>
+    <variantSpriteId>man 1</variantSpriteId>
+    <translations>
+      <translation>
+        <id>Español</id>
+        <text>Hai Sayang</text>
+      </translation>
+      <translation>
+        <id>English</id>
+        <text>Hai Sayang</text>
+      </translation>
+    </translations>
+  </DialogueLines>
+  <lenguageSelectOnColumns>0</lenguageSelectOnColumns>
+</InterpretationXL>
