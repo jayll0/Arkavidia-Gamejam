@@ -301,6 +301,8 @@ MonoBehaviour:
   rb: {fileID: 0}
   animator: {fileID: 0}
   spriteRenderer: {fileID: 0}
+  _mapBoundary: {fileID: 0}
+  _padding: 0.5
 --- !u!61 &715627172
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -11,7 +11,6 @@ public class SettingManager : MonoBehaviour
     // Inisiasi Objek
     [Header("Video")]
     [SerializeField] private Slider _brightnessSlider;
-    [SerializeField] private TMP_Dropdown _resolutionDropdown;
     [SerializeField] private Toggle _fullScreenToggle;
     [SerializeField] private Image _brightnessOverlay;
 
@@ -34,41 +33,13 @@ public class SettingManager : MonoBehaviour
     [Header("SettingCanvas")]
     [SerializeField] private GameObject _settingsCanvas;
 
-    Resolution[] _resolutions;
-
     // Set Objek
     void Start()
     {
-        InitializeResolution();
         InitializeControl();
         InitializeAudio();
 
         OpenVideoPanel();
-    }
-
-    // Inisiasi Resolusi
-    void InitializeResolution()
-    {
-        _resolutions = Screen.resolutions;
-        _resolutionDropdown.ClearOptions();
-
-        List<string> options = new List<string>();
-        int currentResolutionIndex = 0;
-
-        for (int i = 0; i < _resolutions.Length; i++)
-        {
-            string option = _resolutions[i].width + "x" + _resolutions[i].height;
-            options.Add(option);
-
-            if (_resolutions[i].width == Screen.currentResolution.width && _resolutions[i].height == Screen.currentResolution.height)
-            {
-                currentResolutionIndex = i;
-            }
-        }
-
-        _resolutionDropdown.AddOptions(options);
-        _resolutionDropdown.value = currentResolutionIndex;
-        _resolutionDropdown.RefreshShownValue();
     }
 
     // Inisiasi Control
@@ -115,13 +86,6 @@ public class SettingManager : MonoBehaviour
     public void CloseSettings()
     {
         _settingsCanvas.SetActive(false);
-    }
-
-    // Set Resolusi
-    public void SetResolution(int resolutionIndex)
-    {
-        Resolution resolution = _resolutions[resolutionIndex];
-        Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
     }
 
     // Set untuk fullscreen
