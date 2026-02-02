@@ -1,0 +1,1014 @@
+fileFormatVersion: 2
+guid: b3dfa50fb0cc51d428f43a57a46dae51
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6393334984326285479
+    second: peaceful_plains_character_0
+  - first:
+      213: 6496496782341892030
+    second: peaceful_plains_character_1
+  - first:
+      213: -3054108975106900856
+    second: peaceful_plains_character_2
+  - first:
+      213: 8921312696844336148
+    second: peaceful_plains_character_3
+  - first:
+      213: 955123004457730215
+    second: peaceful_plains_character_4
+  - first:
+      213: 5795281548105486925
+    second: peaceful_plains_character_5
+  - first:
+      213: -3388684996414882439
+    second: peaceful_plains_character_6
+  - first:
+      213: -8641907271487658521
+    second: peaceful_plains_character_7
+  - first:
+      213: 7182005927673464183
+    second: peaceful_plains_character_8
+  - first:
+      213: 4082682002559932493
+    second: peaceful_plains_character_9
+  - first:
+      213: 257278517515624188
+    second: peaceful_plains_character_10
+  - first:
+      213: -148361791855387391
+    second: peaceful_plains_character_11
+  - first:
+      213: -4991516711187578582
+    second: peaceful_plains_character_12
+  - first:
+      213: 6480255828816845664
+    second: peaceful_plains_character_13
+  - first:
+      213: -7453683053833996846
+    second: peaceful_plains_character_14
+  - first:
+      213: -1192111597560304348
+    second: peaceful_plains_character_15
+  - first:
+      213: 2347553511566647442
+    second: peaceful_plains_character_16
+  - first:
+      213: 8063456670307914071
+    second: peaceful_plains_character_17
+  - first:
+      213: -7245400580665934947
+    second: peaceful_plains_character_18
+  - first:
+      213: -3032555606707445114
+    second: peaceful_plains_character_19
+  - first:
+      213: -2364333235915646350
+    second: peaceful_plains_character_20
+  - first:
+      213: -2164812960298031552
+    second: peaceful_plains_character_21
+  - first:
+      213: -272701410321174674
+    second: peaceful_plains_character_22
+  - first:
+      213: -8613677667093607868
+    second: peaceful_plains_character_23
+  - first:
+      213: 4314136339288299353
+    second: peaceful_plains_character_24
+  - first:
+      213: -667753548316139811
+    second: peaceful_plains_character_25
+  - first:
+      213: -4556505655179894937
+    second: peaceful_plains_character_26
+  - first:
+      213: -205999359278971803
+    second: peaceful_plains_character_27
+  - first:
+      213: 8037102734514444048
+    second: peaceful_plains_character_28
+  - first:
+      213: 475375371243333220
+    second: peaceful_plains_character_29
+  - first:
+      213: -4321347000320581221
+    second: peaceful_plains_character_30
+  - first:
+      213: 2960510500467859661
+    second: peaceful_plains_character_31
+  - first:
+      213: 6816192348994445809
+    second: peaceful_plains_character_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: peaceful_plains_character_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 159
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a888de7b40b9b850800000000000000
+      internalID: 6393334984326285479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_character_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 159
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb7e4f35761382a50800000000000000
+      internalID: 6496496782341892030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_character_2
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 159
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88cbb698110ad95d0800000000000000
+      internalID: -3054108975106900856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_character_3
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 139
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41cb69171aedecb70800000000000000
+      internalID: 8921312696844336148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_character_4
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 139
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a0c185ef47414d00800000000000000
+      internalID: 955123004457730215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_character_5
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 139
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4214300dd9fc6050800000000000000
+      internalID: 5795281548105486925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_character_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 119
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97dbef423f8f8f0d0800000000000000
+      internalID: -3388684996414882439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_character_7
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 119
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e5ec159f17c11880800000000000000
+      internalID: -8641907271487658521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_character_8
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 119
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7750abdd65c9ba360800000000000000
+      internalID: 7182005927673464183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_character_9
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 101
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d48177d76a998a830800000000000000
+      internalID: 4082682002559932493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_character_10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 102
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe9bd4d279029300800000000000000
+      internalID: 257278517515624188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_character_11
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 99
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d18328cb9e0fdf0800000000000000
+      internalID: -148361791855387391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_character_12
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 99
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a210d335ff19abab0800000000000000
+      internalID: -4991516711187578582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_character_13
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 80
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06b584aa75e7ee950800000000000000
+      internalID: 6480255828816845664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_character_14
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 79
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d530ebf0c23f8890800000000000000
+      internalID: -7453683053833996846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_character_15
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 80
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d6bce61d4c47fe0800000000000000
+      internalID: -1192111597560304348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_character_16
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 79
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 290a62c1b7f249020800000000000000
+      internalID: 2347553511566647442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_character_17
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 60
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 751157f9e1727ef60800000000000000
+      internalID: 8063456670307914071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_character_18
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 59
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b7ff54f8a237b90800000000000000
+      internalID: -7245400580665934947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_character_19
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 60
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 682659c2eb23ae5d0800000000000000
+      internalID: -3032555606707445114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_character_20
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 59
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27a199ed273303fd0800000000000000
+      internalID: -2364333235915646350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_character_21
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 39
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0462640151a05f1e0800000000000000
+      internalID: -2164812960298031552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_character_22
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 39
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6fee0c138b273cf0800000000000000
+      internalID: -272701410321174674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_character_23
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 39
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a8b2b8cc1167880800000000000000
+      internalID: -8613677667093607868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_character_24
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 20
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95712efa424eedb30800000000000000
+      internalID: 4314136339288299353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_character_25
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 39
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dde1c1b8fa9abb6f0800000000000000
+      internalID: -667753548316139811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_character_26
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 20
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76f91fd7f3a04c0c0800000000000000
+      internalID: -4556505655179894937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_character_27
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 19
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56408369ca4242df0800000000000000
+      internalID: -205999359278971803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_character_28
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 19
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 017dd0aca56898f60800000000000000
+      internalID: 8037102734514444048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_character_29
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466ade9a16fd89600800000000000000
+      internalID: 475375371243333220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_character_30
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 0
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9121b67ccd7704c0800000000000000
+      internalID: -4321347000320581221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_character_31
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 0
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc0633e5d98d51920800000000000000
+      internalID: 2960510500467859661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_character_32
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 0
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f1ac82e3daf79e50800000000000000
+      internalID: 6816192348994445809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      peaceful_plains_character_0: 6393334984326285479
+      peaceful_plains_character_1: 6496496782341892030
+      peaceful_plains_character_10: 257278517515624188
+      peaceful_plains_character_11: -148361791855387391
+      peaceful_plains_character_12: -4991516711187578582
+      peaceful_plains_character_13: 6480255828816845664
+      peaceful_plains_character_14: -7453683053833996846
+      peaceful_plains_character_15: -1192111597560304348
+      peaceful_plains_character_16: 2347553511566647442
+      peaceful_plains_character_17: 8063456670307914071
+      peaceful_plains_character_18: -7245400580665934947
+      peaceful_plains_character_19: -3032555606707445114
+      peaceful_plains_character_2: -3054108975106900856
+      peaceful_plains_character_20: -2364333235915646350
+      peaceful_plains_character_21: -2164812960298031552
+      peaceful_plains_character_22: -272701410321174674
+      peaceful_plains_character_23: -8613677667093607868
+      peaceful_plains_character_24: 4314136339288299353
+      peaceful_plains_character_25: -667753548316139811
+      peaceful_plains_character_26: -4556505655179894937
+      peaceful_plains_character_27: -205999359278971803
+      peaceful_plains_character_28: 8037102734514444048
+      peaceful_plains_character_29: 475375371243333220
+      peaceful_plains_character_3: 8921312696844336148
+      peaceful_plains_character_30: -4321347000320581221
+      peaceful_plains_character_31: 2960510500467859661
+      peaceful_plains_character_32: 6816192348994445809
+      peaceful_plains_character_4: 955123004457730215
+      peaceful_plains_character_5: 5795281548105486925
+      peaceful_plains_character_6: -3388684996414882439
+      peaceful_plains_character_7: -8641907271487658521
+      peaceful_plains_character_8: 7182005927673464183
+      peaceful_plains_character_9: 4082682002559932493
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

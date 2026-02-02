@@ -1,0 +1,1196 @@
+fileFormatVersion: 2
+guid: 06960dc9d4ae2a84a82d195d940cd69c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8297874328201370941
+    second: peaceful_plains_decors_0
+  - first:
+      213: 7795627966256229720
+    second: peaceful_plains_decors_1
+  - first:
+      213: 4305647189170605297
+    second: peaceful_plains_decors_2
+  - first:
+      213: -3759454231263263433
+    second: peaceful_plains_decors_3
+  - first:
+      213: 5017151940779268858
+    second: peaceful_plains_decors_4
+  - first:
+      213: 3264901221939533158
+    second: peaceful_plains_decors_5
+  - first:
+      213: -8054247424369181381
+    second: peaceful_plains_decors_6
+  - first:
+      213: -4812359290374198255
+    second: peaceful_plains_decors_7
+  - first:
+      213: 6417123876968623586
+    second: peaceful_plains_decors_8
+  - first:
+      213: -968550955357545309
+    second: peaceful_plains_decors_9
+  - first:
+      213: -6745811845512798957
+    second: peaceful_plains_decors_10
+  - first:
+      213: 3005634996453572386
+    second: peaceful_plains_decors_11
+  - first:
+      213: -7464470486125345584
+    second: peaceful_plains_decors_12
+  - first:
+      213: 8054085075794044439
+    second: peaceful_plains_decors_13
+  - first:
+      213: -6618560056551210545
+    second: peaceful_plains_decors_14
+  - first:
+      213: 7865440919065344344
+    second: peaceful_plains_decors_15
+  - first:
+      213: 9122224683970261119
+    second: peaceful_plains_decors_16
+  - first:
+      213: -8718224603704896335
+    second: peaceful_plains_decors_17
+  - first:
+      213: -6426122294007028036
+    second: peaceful_plains_decors_18
+  - first:
+      213: 3497314346087339446
+    second: peaceful_plains_decors_19
+  - first:
+      213: -670536561065064856
+    second: peaceful_plains_decors_20
+  - first:
+      213: 5510749106190055177
+    second: peaceful_plains_decors_21
+  - first:
+      213: -1940540997973031189
+    second: peaceful_plains_decors_22
+  - first:
+      213: 8668910065306942514
+    second: peaceful_plains_decors_23
+  - first:
+      213: 1304158188650035643
+    second: peaceful_plains_decors_24
+  - first:
+      213: 9130962975412697607
+    second: peaceful_plains_decors_25
+  - first:
+      213: 6125459073637405567
+    second: peaceful_plains_decors_26
+  - first:
+      213: -2925495444195720132
+    second: peaceful_plains_decors_27
+  - first:
+      213: 6533439332642865290
+    second: peaceful_plains_decors_28
+  - first:
+      213: -5291383578142673939
+    second: peaceful_plains_decors_29
+  - first:
+      213: 7910783744268835855
+    second: peaceful_plains_decors_30
+  - first:
+      213: -8200449490128936865
+    second: peaceful_plains_decors_31
+  - first:
+      213: 1465558892501489028
+    second: peaceful_plains_decors_32
+  - first:
+      213: 5139704358092121847
+    second: peaceful_plains_decors_33
+  - first:
+      213: -454479116157524980
+    second: peaceful_plains_decors_34
+  - first:
+      213: -7477589121434757687
+    second: peaceful_plains_decors_35
+  - first:
+      213: -4797220196067042726
+    second: peaceful_plains_decors_36
+  - first:
+      213: 8611105328553029821
+    second: peaceful_plains_decors_37
+  - first:
+      213: 4195509933463348305
+    second: peaceful_plains_decors_38
+  - first:
+      213: 8130977884362486487
+    second: peaceful_plains_decors_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: peaceful_plains_decors_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 161
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d964bccb8f72370800000000000000
+      internalID: 8297874328201370941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_decors_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 141
+        width: 81
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85dadc11552af2c60800000000000000
+      internalID: 7795627966256229720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_decors_2
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 160
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc4ca66e4bb0cb30800000000000000
+      internalID: 4305647189170605297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_decors_3
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 165
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 735c63c8b4cb3dbc0800000000000000
+      internalID: -3759454231263263433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_decors_4
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 79
+        width: 68
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa5f4eab1180a540800000000000000
+      internalID: 5017151940779268858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_decors_5
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 79
+        width: 48
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 665d178fc524f4d20800000000000000
+      internalID: 3264901221939533158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_decors_6
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 79
+        width: 45
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3dbe5904a0993090800000000000000
+      internalID: -8054247424369181381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_decors_7
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 129
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11ce1bde8b0173db0800000000000000
+      internalID: -4812359290374198255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_decors_8
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 129
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ed646eaa243e0950800000000000000
+      internalID: 6417123876968623586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_decors_9
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 114
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac5c07a9040f82f0800000000000000
+      internalID: -968550955357545309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_decors_10
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 129
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d569a0edf0262a0800000000000000
+      internalID: -6745811845512798957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_decors_11
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 129
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ff810da1926b920800000000000000
+      internalID: 3005634996453572386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_decors_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 113
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d48c1e24afd86890800000000000000
+      internalID: -7464470486125345584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_decors_13
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 116
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 716aa7d34bbd5cf60800000000000000
+      internalID: 8054085075794044439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_decors_14
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 117
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc10da8f1b62624a0800000000000000
+      internalID: -6618560056551210545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_decors_15
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 115
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85936bec7d8a72d60800000000000000
+      internalID: 7865440919065344344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_decors_16
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 113
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f70f859b407a89e70800000000000000
+      internalID: 9122224683970261119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_decors_17
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b459100ae4a20780800000000000000
+      internalID: -8718224603704896335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_decors_18
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 117
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb62e7612d3d1d6a0800000000000000
+      internalID: -6426122294007028036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_decors_19
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 119
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b5d9624ed4f88030800000000000000
+      internalID: 3497314346087339446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_decors_20
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 112
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8660ec4ec86c1b6f0800000000000000
+      internalID: -670536561065064856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_decors_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 98
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90772c86d1d1a7c40800000000000000
+      internalID: 5510749106190055177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_decors_22
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 98
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be64cb76e30d115e0800000000000000
+      internalID: -1940540997973031189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_decors_23
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 98
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23cbd6846c72e4870800000000000000
+      internalID: 8668910065306942514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_decors_24
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 98
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb9f66d76fc491210800000000000000
+      internalID: 1304158188650035643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_decors_25
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 98
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ab7beb272b7be70800000000000000
+      internalID: 9130962975412697607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_decors_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 52
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f73d95ac290020550800000000000000
+      internalID: 6125459073637405567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_decors_27
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 52
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c34c0b8b46d8667d0800000000000000
+      internalID: -2925495444195720132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_decors_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 52
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a804eb715707baa50800000000000000
+      internalID: 6533439332642865290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_decors_29
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 50
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de3787eabaa3196b0800000000000000
+      internalID: -5291383578142673939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_decors_30
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0c141cf6efb8cd60800000000000000
+      internalID: 7910783744268835855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_decors_31
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f50e456f2a6223e80800000000000000
+      internalID: -8200449490128936865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_decors_32
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48557f04c06b65410800000000000000
+      internalID: 1465558892501489028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_decors_33
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 33
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6ab92e1e5e35740800000000000000
+      internalID: 5139704358092121847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_decors_34
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 33
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c04e89bd6ad51b9f0800000000000000
+      internalID: -454479116157524980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_decors_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c55e80ef444a3890800000000000000
+      internalID: -7477589121434757687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_decors_36
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 32
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a181006a9dc6db0800000000000000
+      internalID: -4797220196067042726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_decors_37
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db070e73caac08770800000000000000
+      internalID: 8611105328553029821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_decors_38
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 20
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 154a4b34e02793a30800000000000000
+      internalID: 4195509933463348305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaceful_plains_decors_39
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 20
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d2bbf95e4907d070800000000000000
+      internalID: 8130977884362486487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      peaceful_plains_decors_0: 8297874328201370941
+      peaceful_plains_decors_1: 7795627966256229720
+      peaceful_plains_decors_10: -6745811845512798957
+      peaceful_plains_decors_11: 3005634996453572386
+      peaceful_plains_decors_12: -7464470486125345584
+      peaceful_plains_decors_13: 8054085075794044439
+      peaceful_plains_decors_14: -6618560056551210545
+      peaceful_plains_decors_15: 7865440919065344344
+      peaceful_plains_decors_16: 9122224683970261119
+      peaceful_plains_decors_17: -8718224603704896335
+      peaceful_plains_decors_18: -6426122294007028036
+      peaceful_plains_decors_19: 3497314346087339446
+      peaceful_plains_decors_2: 4305647189170605297
+      peaceful_plains_decors_20: -670536561065064856
+      peaceful_plains_decors_21: 5510749106190055177
+      peaceful_plains_decors_22: -1940540997973031189
+      peaceful_plains_decors_23: 8668910065306942514
+      peaceful_plains_decors_24: 1304158188650035643
+      peaceful_plains_decors_25: 9130962975412697607
+      peaceful_plains_decors_26: 6125459073637405567
+      peaceful_plains_decors_27: -2925495444195720132
+      peaceful_plains_decors_28: 6533439332642865290
+      peaceful_plains_decors_29: -5291383578142673939
+      peaceful_plains_decors_3: -3759454231263263433
+      peaceful_plains_decors_30: 7910783744268835855
+      peaceful_plains_decors_31: -8200449490128936865
+      peaceful_plains_decors_32: 1465558892501489028
+      peaceful_plains_decors_33: 5139704358092121847
+      peaceful_plains_decors_34: -454479116157524980
+      peaceful_plains_decors_35: -7477589121434757687
+      peaceful_plains_decors_36: -4797220196067042726
+      peaceful_plains_decors_37: 8611105328553029821
+      peaceful_plains_decors_38: 4195509933463348305
+      peaceful_plains_decors_39: 8130977884362486487
+      peaceful_plains_decors_4: 5017151940779268858
+      peaceful_plains_decors_5: 3264901221939533158
+      peaceful_plains_decors_6: -8054247424369181381
+      peaceful_plains_decors_7: -4812359290374198255
+      peaceful_plains_decors_8: 6417123876968623586
+      peaceful_plains_decors_9: -968550955357545309
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

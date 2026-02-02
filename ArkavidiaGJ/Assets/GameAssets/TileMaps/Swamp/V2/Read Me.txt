@@ -1,0 +1,13 @@
+# Peaceful Plains V2
+
+Both the tileset and item pack are 16x16 and the character sprite is 20x20 to accomodate movement.
+
+## Character sheet
+Row 1-3 is the idle animation
+Row 4-6 is the running animation
+Row 7-9 is the walking animation
+
+## Feedback
+If there are any questions regarding the asset feel free to ask at the Peaceful Plains page! https://kylamber.itch.io/peaceful-plains
+
+Thank you for downloading my asset
