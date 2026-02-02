@@ -15,12 +15,12 @@
     <GUID>493ad6d6-4a18-4f1c-a93f-33b76e4062c9</GUID>
     <Switch_outputs_GUIDs />
     <action>Dialogue</action>
-    <characterId>???</characterId>
+    <characterId>White</characterId>
     <position>
       <x>379.2</x>
       <y>44</y>
     </position>
-    <variantSpriteId>man 1</variantSpriteId>
+    <variantSpriteId>sprite Defaul</variantSpriteId>
     <translations>
       <translation>
         <id>Español</id>
