@@ -58,7 +58,7 @@ public class GuardianMovement : MonoBehaviour
     void FixedUpdate()
     {
         // 4. Menggerakkan Karakter (Physics)
-        rb.linearVelocity = movementInput * moveSpeed; 
+        rb.linearVelocity = movementInput * moveSpeed * 0.5f; 
     }
 
     // Camera dan Posisi disini
@@ -70,27 +70,21 @@ public class GuardianMovement : MonoBehaviour
         transform.position = position;
     }
 
+    // Animasi
     void HandleAnimationAndFlip(float x, float y)
     {
         bool isMoving = movementInput.magnitude > 0.01f;
 
-        if (animator != null)
-        {
-            animator.SetBool("IsMoving", isMoving);
-        }
-
-        if (x > 0)
-        {
-            spriteRenderer.flipX = false; 
-        }
-        else if (x < 0)
-        {
-            spriteRenderer.flipX = true;  
-        }
-        
         if (isMoving)
         {
-            lastMoveDirection = movementInput;
+            animator.SetBool("IsMoving", true);
+
+            animator.SetFloat("MoveX", x * 0.5f);
+            animator.SetFloat("MoveY", y * 0.5f);
+        }
+        else
+        {
+            animator.SetBool("IsMoving", false);
         }
     }
 }

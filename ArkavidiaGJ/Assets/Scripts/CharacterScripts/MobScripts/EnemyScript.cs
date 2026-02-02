@@ -3,10 +3,6 @@ using UnityEngine.SceneManagement;
 
 public class EnemyScript : MonoBehaviour
 {
-
-    [Header("Collider")]
-    [SerializeField] private Collider2D _collider;
-
     [Header("BattleScene")]
     [SerializeField] private string _scene;
 
@@ -22,7 +18,7 @@ public class EnemyScript : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
