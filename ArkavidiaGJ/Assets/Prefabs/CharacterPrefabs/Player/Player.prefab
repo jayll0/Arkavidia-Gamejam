@@ -131,6 +131,9 @@ GameObject:
   - component: {fileID: 6400198878371649211}
   - component: {fileID: 3071570202712600196}
   - component: {fileID: 7751860065134020204}
+  - component: {fileID: 8595603617943057415}
+  - component: {fileID: 4172414047440972760}
+  - component: {fileID: 8889386858601095071}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -339,4 +342,49 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InventoryController
   _inventoryUI: {fileID: 0}
-  size: 21
+  _inventoryData: {fileID: 11400000, guid: 7f7d2f96f9239f5499e72f3a82f4a87d, type: 2}
+  _playerStatus: {fileID: 8889386858601095071}
+  _itemInitiation:
+  - _quantity: 5
+    _item: {fileID: 11400000, guid: 7242548d1d788cf4d9a28d28d2a6706b, type: 2}
+  size: 18
+--- !u!114 &8595603617943057415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7014895605764508431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb820b3081788f04ab3d9b994047ec25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PickupSystem
+  _inventoryData: {fileID: 11400000, guid: 7f7d2f96f9239f5499e72f3a82f4a87d, type: 2}
+--- !u!114 &4172414047440972760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7014895605764508431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb20051e68fab146992c45ba028fe08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EquipItem
+  _equipment: {fileID: 0}
+  _inventoryData: {fileID: 11400000, guid: 7f7d2f96f9239f5499e72f3a82f4a87d, type: 2}
+--- !u!114 &8889386858601095071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7014895605764508431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93785032448419844acccfdef4d14158, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerStatus
+  _character: {fileID: 11400000, guid: 6b8d7bb4324f27b4eba8f4cf01c4c23a, type: 2}
