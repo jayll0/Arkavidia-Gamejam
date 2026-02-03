@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 5541503824034402562}
   - component: {fileID: 6400198878371649211}
   - component: {fileID: 3071570202712600196}
+  - component: {fileID: 7751860065134020204}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -251,7 +252,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13ca61b16458cec42b8eb6fa77ae5396, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GuardianMovement
-  moveSpeed: 5
+  moveSpeed: 10
   rb: {fileID: 4996339115394097699}
   animator: {fileID: 3071570202712600196}
   spriteRenderer: {fileID: 8503815670944329776}
@@ -325,3 +326,17 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &7751860065134020204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7014895605764508431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b853f594b6a272a4590bea79edb06009, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InventoryController
+  _inventoryUI: {fileID: 0}
+  size: 21
