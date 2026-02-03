@@ -14,6 +14,8 @@ public class Item : ScriptableObject
     [field: SerializeField] public int Attack {  get; set; }
     [field: SerializeField] public int Defense { get; set; }
     [field: SerializeField] public int Speed { get; set; }
+    [field: SerializeField] public int Heal { get; set; }
+    [field: SerializeField] public int Mana { get; set; }
     [field: SerializeField] public Sprite Image { get; set; }
 
 }
