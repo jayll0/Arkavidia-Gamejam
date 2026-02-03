@@ -10,6 +10,7 @@ namespace Inventory
 
         [SerializeField] private InventoryPage _inventoryUI;
         [SerializeField] private InventorySO _inventoryData;
+        [SerializeField] private PlayerStatus _playerStatus;
 
         public List<InventoryItems> _itemInitiation = new List<InventoryItems>();
 
@@ -19,6 +20,11 @@ namespace Inventory
         {
             PrepareUI();
             PrepareInventoryData();
+
+            if (_playerStatus == null)
+            {
+                _playerStatus = FindObjectOfType<PlayerStatus>();
+            }
         }
 
         private void PrepareInventoryData()
@@ -58,7 +64,34 @@ namespace Inventory
 
         private void HandleItemActionRequest(int obj)
         {
-            throw new NotImplementedException();
+            InventoryItems inventoryItems = _inventoryData.GetItemAt(obj);
+
+            if (inventoryItems._isEmpty)
+            {
+                return;
+            }
+
+            IItemAction itemAction = inventoryItems._item as IItemAction;
+
+            if (itemAction != null)
+            {
+                if (_playerStatus != null)
+                {
+                    itemAction.PerformAction(_playerStatus.gameObject);
+
+                    if (_playerStatus._currentCharacter != null)
+                    {
+                        _inventoryUI.ShowCharacterStatus(_playerStatus._currentCharacter);
+                    }
+                }
+            }
+
+            IDestroyableItem destroyableItem = inventoryItems._item as IDestroyableItem;
+
+            if (destroyableItem != null)
+            {
+                _inventoryData.RemoveItem(obj, 1);
+            }
         }
 
         private void HandleDragging(int obj)
@@ -100,6 +133,8 @@ namespace Inventory
                 if (_inventoryUI.isActiveAndEnabled == false)
                 {
                     _inventoryUI.Show();
+
+                    _inventoryUI.ShowCharacterStatus(_playerStatus._currentCharacter);
 
                     foreach (var item in _inventoryData.GetCurrentInventoryState())
                     {

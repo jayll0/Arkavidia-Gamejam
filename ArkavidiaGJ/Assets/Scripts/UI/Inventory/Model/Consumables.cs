@@ -1,20 +1,42 @@
+using NUnit.Framework;
+using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 [CreateAssetMenu]
-public class Consumables : ScriptableObject
+public class Consumables : Item, IDestroyableItem, IItemAction
 {
-    public int ID => GetInstanceID();
+    [SerializeField] private List<ModifierData> _modifierData = new List<ModifierData>();
+    public string ActionName => "Consume";
 
-    [field: SerializeField] public bool IsStackable { get; set; }
+    public AudioClip ActionSFX {get; private set;}
 
-    [field: SerializeField] public int MaxStackSize { get; set; }
-    [field: SerializeField] public string Name { get; set; }
-    [field: SerializeField] [field: TextArea] public string Description { get; set; }
-    [field: SerializeField] public int Heal {  get; set; }
-    [field: SerializeField] public int Mana { get; set; }
-    [field: SerializeField] public int Attack {  get; set; }
-    [field: SerializeField] public int Defense { get; set; }
-    [field: SerializeField] public int Speed { get; set; }
-    [field: SerializeField] public Sprite Image { get; set; }
+    public bool PerformAction(GameObject character)
+    {
+       foreach (ModifierData modifierData in _modifierData)
+        {
+            modifierData._statModifier.AffectCharacter(character, modifierData.value);
+        }
 
+       return true;
+    }
+}
+
+public interface IDestroyableItem
+{
+
+}
+
+public interface IItemAction
+{
+    public string ActionName { get; }
+    public AudioClip ActionSFX { get; }
+    bool PerformAction(GameObject character);
+}
+
+[Serializable]
+public class ModifierData
+{
+    public CharacterModifier _statModifier;
+    public int value;
 }

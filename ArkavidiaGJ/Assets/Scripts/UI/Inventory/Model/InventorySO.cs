@@ -140,6 +140,30 @@ public class InventorySO : ScriptableObject
     {
         OnInventoryChanged?.Invoke(GetCurrentInventoryState());
     }
+
+    public void RemoveItem(int obj, int amount)
+    {
+        if (_items.Count > obj)
+        {
+            if (_items[obj]._isEmpty)
+            {
+                return;
+            }
+
+            int reminder = _items[obj]._quantity - amount;
+
+            if (reminder <= 0)
+            {
+                _items[obj] = InventoryItems.GetEmptyItem();
+            }
+            else
+            {
+                _items[obj] = _items[obj].ChangeQuantity(reminder);
+            }
+
+            InformChange();
+        }
+    }
 }
 
 [Serializable]

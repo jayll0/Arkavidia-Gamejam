@@ -1,8 +1,6 @@
 using UnityEngine;
 
-[CreateAssetMenu]
-
-public class Item : ScriptableObject
+public abstract class Item : ScriptableObject
 {
     public int ID => GetInstanceID();
 

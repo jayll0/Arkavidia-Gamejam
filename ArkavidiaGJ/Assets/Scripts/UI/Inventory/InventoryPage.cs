@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.TextCore.Text;
 
 namespace Inventory.UI
 {
@@ -41,6 +42,22 @@ namespace Inventory.UI
                 item.OnItemEndDrag += HandleEndDrag;
                 item.OnItemDropped += HandleSwap;
                 item.OnItemRightMouseButtonClick += HandleShowItemActions;
+            }
+        }
+
+        public void ShowCharacterStatus(Characters chara)
+        {
+            if (chara != null)
+            {
+                _charStats.setStats(
+                    chara.Image,
+                    chara.Name,
+                    chara.Health,
+                    chara.Mana,
+                    chara.Attack,
+                    chara.Defense,
+                    chara.Speed
+                );
             }
         }
 
@@ -87,7 +104,14 @@ namespace Inventory.UI
 
         private void HandleShowItemActions(InventoryItem item)
         {
+            int index = _listItems.IndexOf(item);
 
+            if (index == -1)
+            {
+                return;
+            }
+
+            OnItemActionRequested?.Invoke(index);
         }
 
         private void HandleSwap(InventoryItem item)
