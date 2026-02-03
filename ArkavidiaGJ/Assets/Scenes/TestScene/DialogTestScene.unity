@@ -612,6 +612,10 @@ PrefabInstance:
       propertyPath: m_Value
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 986335444567752387, guid: f07b1635aae4e7f4395f61b59c2ece2f, type: 3}
+      propertyPath: _mouseFollower
+      value: 
+      objectReference: {fileID: 412367606}
     - target: {fileID: 1131207072332925581, guid: f07b1635aae4e7f4395f61b59c2ece2f, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -920,6 +924,22 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -99.89968
       objectReference: {fileID: 0}
+    - target: {fileID: 8978421269572284431, guid: f07b1635aae4e7f4395f61b59c2ece2f, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8978421269572284431, guid: f07b1635aae4e7f4395f61b59c2ece2f, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8978421269572284431, guid: f07b1635aae4e7f4395f61b59c2ece2f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8978421269572284431, guid: f07b1635aae4e7f4395f61b59c2ece2f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9114603633279980963, guid: f07b1635aae4e7f4395f61b59c2ece2f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1432.3204
@@ -965,6 +985,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f07b1635aae4e7f4395f61b59c2ece2f, type: 3}
+--- !u!114 &412367606 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1725179600587473153, guid: f07b1635aae4e7f4395f61b59c2ece2f, type: 3}
+  m_PrefabInstance: {fileID: 412367605}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80eda7151eb42e646938cd48136c12aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MouseFollower
 --- !u!114 &412367607 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 986335444567752387, guid: f07b1635aae4e7f4395f61b59c2ece2f, type: 3}

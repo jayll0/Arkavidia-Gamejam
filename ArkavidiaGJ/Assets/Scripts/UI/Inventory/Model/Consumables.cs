@@ -1,0 +1,20 @@
+using UnityEngine;
+
+[CreateAssetMenu]
+public class Consumables : ScriptableObject
+{
+    public int ID => GetInstanceID();
+
+    [field: SerializeField] public bool IsStackable { get; set; }
+
+    [field: SerializeField] public int MaxStackSize { get; set; }
+    [field: SerializeField] public string Name { get; set; }
+    [field: SerializeField] [field: TextArea] public string Description { get; set; }
+    [field: SerializeField] public int Heal {  get; set; }
+    [field: SerializeField] public int Mana { get; set; }
+    [field: SerializeField] public int Attack {  get; set; }
+    [field: SerializeField] public int Defense { get; set; }
+    [field: SerializeField] public int Speed { get; set; }
+    [field: SerializeField] public Sprite Image { get; set; }
+
+}
