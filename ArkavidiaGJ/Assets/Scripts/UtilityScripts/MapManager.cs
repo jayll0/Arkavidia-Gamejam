@@ -10,11 +10,13 @@ public class MapManager : MonoBehaviour
     public void GoToMap()
     {
         SceneManager.LoadScene(_mapName);
+        Time.timeScale = 1.0f;
     }
 
     public void CloseMap()
     {
         _mapCanvas.SetActive(false);
+        Time.timeScale = 1.0f;
     } 
 
 }

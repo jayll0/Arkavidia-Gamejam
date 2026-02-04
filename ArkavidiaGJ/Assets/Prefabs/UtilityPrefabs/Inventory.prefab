@@ -32,10 +32,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 486766064223618078}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000061035, y: -0.000091553}
-  m_SizeDelta: {x: 1920, y: 1080}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 105.35475, y: -540}
+  m_SizeDelta: {x: 10.709505, y: 880}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3134897155075603690
 CanvasRenderer:
@@ -489,8 +489,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1808, y: -91}
-  m_SizeDelta: {x: 187.5516, y: 150.6271}
+  m_AnchoredPosition: {x: 1814.5, y: -87.367}
+  m_SizeDelta: {x: 210.9962, y: 174.7347}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1542194334861972588
 CanvasRenderer:
@@ -598,7 +598,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03ea38c1913c3734da1643dd3ea548e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackButtonManager
-  _inventory: {fileID: 4653357423178457454}
+  _inventory: {fileID: 5867159498913190232}
 --- !u!1 &8454113017391681824
 GameObject:
   m_ObjectHideFlags: 0
@@ -1482,11 +1482,6 @@ PrefabInstance:
 --- !u!224 &4360573172884679993 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2689483581340699251, guid: 901e9f2dea857b943bf7405ded78300e, type: 3}
-  m_PrefabInstance: {fileID: 1860313355104642890}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &4653357423178457454 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6432585885704242724, guid: 901e9f2dea857b943bf7405ded78300e, type: 3}
   m_PrefabInstance: {fileID: 1860313355104642890}
   m_PrefabAsset: {fileID: 0}
 --- !u!224 &5946215036260873875 stripped

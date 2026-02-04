@@ -126,25 +126,42 @@ namespace Inventory
             _inventoryUI.UpdateDescription(obj, item.Image, item.Name, item.Description);
         }
 
+        public void ToggleInventory()
+        {
+            if (_inventoryUI.isActiveAndEnabled == false)
+            {
+                ShowInventory();
+            } 
+            else
+            {
+                HideInventory();
+            }
+        }
+
+        public void ShowInventory()
+        {
+            _inventoryUI.Show();
+            Time.timeScale = 0f;
+
+            _inventoryUI.ShowCharacterStatus(_playerStatus._currentCharacter);
+
+            foreach (var item in _inventoryData.GetCurrentInventoryState())
+            {
+                _inventoryUI.UpdateData(item.Key, item.Value._item.Image, item.Value._quantity);
+            }
+        }
+
+        public void HideInventory()
+        {
+            _inventoryUI.Hide();
+            Time.timeScale = 1f;
+        }
+
         public void Update()
         {
             if (Input.GetKeyUp(KeyCode.I))
             {
-                if (_inventoryUI.isActiveAndEnabled == false)
-                {
-                    _inventoryUI.Show();
-
-                    _inventoryUI.ShowCharacterStatus(_playerStatus._currentCharacter);
-
-                    foreach (var item in _inventoryData.GetCurrentInventoryState())
-                    {
-                        _inventoryUI.UpdateData(item.Key, item.Value._item.Image, item.Value._quantity);
-                    }
-                }
-                else
-                {
-                    _inventoryUI.Hide();
-                }
+                ToggleInventory();
             }
         }
     }

@@ -16,10 +16,10 @@ MonoBehaviour:
   <MaxStackSize>k__BackingField: 1
   <Name>k__BackingField: Sikil
   <Type>k__BackingField: Weapon
-  <Description>k__BackingField: 'Buat nyeket
+  <Description>k__BackingField: 'Buat Ngarit Jukur
 
-    Attack +25   Defense +5  Speed
-    +10'
+    Attack +25   Defense +5 
+    Speed +10'
   <Attack>k__BackingField: 25
   <Defense>k__BackingField: 5
   <Speed>k__BackingField: 10

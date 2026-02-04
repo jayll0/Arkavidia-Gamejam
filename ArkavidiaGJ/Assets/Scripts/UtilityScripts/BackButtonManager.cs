@@ -6,5 +6,7 @@ public class BackButtonManager : MonoBehaviour
     public void CloseInventory()
     {
         _inventory.SetActive(false);
+        this.gameObject.SetActive(false);
+        Time.timeScale = 1.0f;
     }
 }

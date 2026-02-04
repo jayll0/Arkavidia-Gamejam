@@ -5,11 +5,11 @@ using UnityEngine.Rendering;
 public class GuardianMovement : MonoBehaviour
 {
     [Header("Settings")]
-    public float moveSpeed = 5f; 
+    public float moveSpeed = 5f;
 
     [Header("Components")]
     public Rigidbody2D rb;
-    public Animator animator;    
+    public Animator animator;
     public SpriteRenderer spriteRenderer;
 
     [Header("MapBoundary")]
@@ -17,17 +17,15 @@ public class GuardianMovement : MonoBehaviour
     [SerializeField] private float _padding = 0.5f;
 
     private Vector2 movementInput;
-    private Vector2 lastMoveDirection; 
-    private float  minX, maxX, minY, maxY;
+    private Vector2 lastMoveDirection;
+    private float minX, maxX, minY, maxY;
 
     void Start()
     {
-        // Otomatis cari komponen kalau lupa di-drag di inspector
         if (rb == null) rb = GetComponent<Rigidbody2D>();
         if (animator == null) animator = GetComponent<Animator>();
         if (spriteRenderer == null) spriteRenderer = GetComponent<SpriteRenderer>();
 
-        // Buat Setting Map Boundary
         if (_mapBoundary != null)
         {
             Bounds boundary = _mapBoundary.bounds;
@@ -39,38 +37,29 @@ public class GuardianMovement : MonoBehaviour
         }
     }
 
-    // Input atau Logic disini
     void Update()
     {
-        // 1. Menerima Input (WASD / Panah)
         float inputX = Input.GetAxisRaw("Horizontal");
         float inputY = Input.GetAxisRaw("Vertical");
 
-        // 2. Normalisasi Vector (Supaya diagonal gak ngebut)
         movementInput = new Vector2(inputX, inputY).normalized;
 
-        // 3. Mengatur Animasi & Arah Hadap (Visual)
         HandleAnimationAndFlip(inputX, inputY);
     }
 
-
-    // Physics disini
     void FixedUpdate()
     {
-        // 4. Menggerakkan Karakter (Physics)
-        rb.linearVelocity = movementInput * moveSpeed * 0.5f; 
+        Vector2 newPosition = rb.position + movementInput * moveSpeed * Time.fixedDeltaTime;
+
+        if (_mapBoundary != null)
+        {
+            newPosition.x = Mathf.Clamp(newPosition.x, minX, maxX);
+            newPosition.y = Mathf.Clamp(newPosition.y, minY, maxY);
+        }
+
+        rb.MovePosition(newPosition);
     }
 
-    // Camera dan Posisi disini
-    private void LateUpdate()
-    {
-        Vector2 position = transform.position;
-        position.x = Mathf.Clamp(position.x, minX, maxX);
-        position.y = Mathf.Clamp(position.y, minY, maxY);
-        transform.position = position;
-    }
-
-    // Animasi
     void HandleAnimationAndFlip(float x, float y)
     {
         bool isMoving = movementInput.magnitude > 0.01f;

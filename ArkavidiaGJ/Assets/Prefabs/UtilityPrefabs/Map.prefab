@@ -1026,7 +1026,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MapManager
   _mapName: 
-  _mapCanvas: {fileID: 5259065672441233903}
+  _mapCanvas: {fileID: 63231156693577781}
 --- !u!1 &1259141642628736208
 GameObject:
   m_ObjectHideFlags: 0

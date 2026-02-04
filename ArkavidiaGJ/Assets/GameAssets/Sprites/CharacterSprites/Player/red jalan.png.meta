@@ -187,12 +187,12 @@ TextureImporter:
       name: red jalan_0
       rect:
         serializedVersion: 2
-        x: 155
-        y: 781
-        width: 110
-        height: 245
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 156
+        y: 782
+        width: 107
+        height: 243
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -209,12 +209,12 @@ TextureImporter:
       name: red jalan_1
       rect:
         serializedVersion: 2
-        x: 341
-        y: 777
-        width: 117
-        height: 247
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 342
+        y: 778
+        width: 115
+        height: 244
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -231,12 +231,12 @@ TextureImporter:
       name: red jalan_2
       rect:
         serializedVersion: 2
-        x: 509
-        y: 780
-        width: 110
-        height: 245
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 510
+        y: 781
+        width: 107
+        height: 243
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -253,12 +253,12 @@ TextureImporter:
       name: red jalan_3
       rect:
         serializedVersion: 2
-        x: 678
-        y: 768
-        width: 119
-        height: 251
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 679
+        y: 769
+        width: 117
+        height: 249
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -275,12 +275,12 @@ TextureImporter:
       name: red jalan_4
       rect:
         serializedVersion: 2
-        x: 167
-        y: 517
-        width: 93
-        height: 226
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 168
+        y: 518
+        width: 91
+        height: 224
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -297,12 +297,12 @@ TextureImporter:
       name: red jalan_5
       rect:
         serializedVersion: 2
-        x: 320
-        y: 517
-        width: 128
-        height: 224
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 321
+        y: 518
+        width: 126
+        height: 222
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -319,12 +319,12 @@ TextureImporter:
       name: red jalan_6
       rect:
         serializedVersion: 2
-        x: 521
-        y: 516
-        width: 93
-        height: 226
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 522
+        y: 517
+        width: 91
+        height: 224
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -341,12 +341,12 @@ TextureImporter:
       name: red jalan_7
       rect:
         serializedVersion: 2
-        x: 686
-        y: 510
-        width: 94
-        height: 224
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 687
+        y: 511
+        width: 92
+        height: 222
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -363,12 +363,12 @@ TextureImporter:
       name: red jalan_8
       rect:
         serializedVersion: 2
-        x: 157
-        y: 254
-        width: 110
-        height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 158
+        y: 255
+        width: 107
+        height: 238
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -385,12 +385,12 @@ TextureImporter:
       name: red jalan_9
       rect:
         serializedVersion: 2
-        x: 340
-        y: 257
-        width: 110
-        height: 238
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 341
+        y: 258
+        width: 108
+        height: 236
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -407,12 +407,12 @@ TextureImporter:
       name: red jalan_10
       rect:
         serializedVersion: 2
-        x: 511
-        y: 253
-        width: 110
-        height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 254
+        width: 107
+        height: 238
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -429,12 +429,12 @@ TextureImporter:
       name: red jalan_11
       rect:
         serializedVersion: 2
-        x: 679
-        y: 252
-        width: 110
-        height: 239
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 681
+        y: 253
+        width: 107
+        height: 237
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -451,12 +451,12 @@ TextureImporter:
       name: red jalan_12
       rect:
         serializedVersion: 2
-        x: 169
-        y: 10
-        width: 94
-        height: 224
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 170
+        y: 11
+        width: 92
+        height: 222
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -473,12 +473,12 @@ TextureImporter:
       name: red jalan_13
       rect:
         serializedVersion: 2
-        x: 335
-        y: 16
-        width: 93
-        height: 226
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 336
+        y: 17
+        width: 91
+        height: 224
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -495,12 +495,12 @@ TextureImporter:
       name: red jalan_14
       rect:
         serializedVersion: 2
-        x: 501
-        y: 17
-        width: 128
-        height: 224
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 502
+        y: 18
+        width: 126
+        height: 222
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -517,12 +517,12 @@ TextureImporter:
       name: red jalan_15
       rect:
         serializedVersion: 2
-        x: 689
-        y: 17
-        width: 93
-        height: 226
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 690
+        y: 18
+        width: 91
+        height: 224
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -539,7 +539,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7d73aab4275f3374aa422f103450abfe
     internalID: 0
     vertices: []
     indices: 
@@ -547,7 +547,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       red jalan_0: -6787732307111441603
       red jalan_1: -396264478770366732

@@ -9,7 +9,7 @@ public class InventorySO : ScriptableObject
 {
     [SerializeField] List<InventoryItems> _items;
 
-    [field: SerializeField] public int Size { get; private set; } = 21;
+    [field: SerializeField] public int Size { get; private set; }
 
     public event Action<Dictionary<int, InventoryItems>> OnInventoryChanged;
 

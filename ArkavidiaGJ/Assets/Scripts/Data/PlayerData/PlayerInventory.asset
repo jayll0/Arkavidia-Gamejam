@@ -13,14 +13,8 @@ MonoBehaviour:
   m_Name: PlayerInventory
   m_EditorClassIdentifier: Assembly-CSharp::InventorySO
   _items:
-  - _quantity: 10
-    _item: {fileID: 11400000, guid: 00bb57d4a22be5e46aafe8da3ee31032, type: 2}
-  - _quantity: 1
-    _item: {fileID: 11400000, guid: d3d95fc542a888a42b8373b1cedaf3d7, type: 2}
-  - _quantity: 1
-    _item: {fileID: 11400000, guid: 45cd3d794c49ee042a390993e3c4f55a, type: 2}
-  - _quantity: 1
-    _item: {fileID: 11400000, guid: 0afaca0d762cd43469eecb72b175828f, type: 2}
+  - _quantity: 5
+    _item: {fileID: 11400000, guid: 7242548d1d788cf4d9a28d28d2a6706b, type: 2}
   - _quantity: 0
     _item: {fileID: 0}
   - _quantity: 0
@@ -33,4 +27,26 @@ MonoBehaviour:
     _item: {fileID: 0}
   - _quantity: 0
     _item: {fileID: 0}
-  <Size>k__BackingField: 21
+  - _quantity: 0
+    _item: {fileID: 0}
+  - _quantity: 0
+    _item: {fileID: 0}
+  - _quantity: 0
+    _item: {fileID: 0}
+  - _quantity: 0
+    _item: {fileID: 0}
+  - _quantity: 0
+    _item: {fileID: 0}
+  - _quantity: 0
+    _item: {fileID: 0}
+  - _quantity: 0
+    _item: {fileID: 0}
+  - _quantity: 0
+    _item: {fileID: 0}
+  - _quantity: 0
+    _item: {fileID: 0}
+  - _quantity: 0
+    _item: {fileID: 0}
+  - _quantity: 0
+    _item: {fileID: 0}
+  <Size>k__BackingField: 18

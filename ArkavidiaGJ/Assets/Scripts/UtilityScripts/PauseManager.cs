@@ -28,5 +28,6 @@ public class PauseManager : MonoBehaviour
     public void Resume()
     {
         _pauseCanvas.SetActive(false);
+        Time.timeScale = 1f;
     }
 }
