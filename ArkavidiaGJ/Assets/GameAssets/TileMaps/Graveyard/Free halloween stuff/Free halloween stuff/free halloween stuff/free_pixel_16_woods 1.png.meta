@@ -1,0 +1,730 @@
+fileFormatVersion: 2
+guid: 468cf3852b82e0c44904d6574440d3bb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5703153335070063318
+    second: free_pixel_16_woods_0
+  - first:
+      213: -2649362594470184680
+    second: free_pixel_16_woods_1
+  - first:
+      213: 2776110486790335540
+    second: free_pixel_16_woods_2
+  - first:
+      213: 6201923307911315943
+    second: free_pixel_16_woods_3
+  - first:
+      213: 7668712595567774901
+    second: free_pixel_16_woods_4
+  - first:
+      213: 808342993103675010
+    second: free_pixel_16_woods_5
+  - first:
+      213: -8268584997394007997
+    second: free_pixel_16_woods_6
+  - first:
+      213: 5546923886686216521
+    second: free_pixel_16_woods_7
+  - first:
+      213: -2859695760232264916
+    second: free_pixel_16_woods_8
+  - first:
+      213: -5041705211287390686
+    second: free_pixel_16_woods_9
+  - first:
+      213: 3840224916500415435
+    second: free_pixel_16_woods_10
+  - first:
+      213: 5768235814480448862
+    second: free_pixel_16_woods_11
+  - first:
+      213: -7331772294303824056
+    second: free_pixel_16_woods_12
+  - first:
+      213: -8199658719775389105
+    second: free_pixel_16_woods_13
+  - first:
+      213: -3783250802114971227
+    second: free_pixel_16_woods_14
+  - first:
+      213: -4061276826137978366
+    second: free_pixel_16_woods_15
+  - first:
+      213: 4417880606466263911
+    second: free_pixel_16_woods_16
+  - first:
+      213: -8512013873870273459
+    second: free_pixel_16_woods_17
+  - first:
+      213: -6497236863775436907
+    second: free_pixel_16_woods_18
+  - first:
+      213: -3419069450515964983
+    second: free_pixel_16_woods_19
+  - first:
+      213: 7401477806017767823
+    second: free_pixel_16_woods_20
+  - first:
+      213: -6695427090715367960
+    second: free_pixel_16_woods_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 6
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: free_pixel_16_woods 1_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 103
+        width: 66
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2480e2588c3c46479515acc944a912b
+      internalID: 1484857307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free_pixel_16_woods 1_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 153
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435d3edcef18d7546b73c5310451f31d
+      internalID: 9090708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free_pixel_16_woods 1_2
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 153
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a58538fac11ffb47b8eb31c33f217e3
+      internalID: -1645889996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free_pixel_16_woods 1_3
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 103
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c96cfffdbecd8be418005f3fc4ecce6f
+      internalID: 2136991454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free_pixel_16_woods 1_4
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 133
+        width: 96
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed36b1bbe6b48f45a5de990dbf21e03
+      internalID: -1331419961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free_pixel_16_woods 1_5
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 50
+        width: 72
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b6a240c6b8a0d4ba01e79cb2ec12b8
+      internalID: -354265423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free_pixel_16_woods 1_6
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 130
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae725060a2fe1224ba05e3fb10e0cc05
+      internalID: 133012774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free_pixel_16_woods 1_7
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 114
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952d740afd22d5b4bb27f292182a58f6
+      internalID: 2004976276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free_pixel_16_woods 1_8
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 117
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91526f2a2a15d6d43b4cca849a169374
+      internalID: -1504603967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free_pixel_16_woods 1_9
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 105
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce7278e7f81419418a38e577738f2b5
+      internalID: -680401255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free_pixel_16_woods 1_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98446ea254ec80349bc0cf0474a62ba0
+      internalID: -42053134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free_pixel_16_woods 1_11
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 98
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64019662cdb88e6479d6035bce6daafd
+      internalID: 459634421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free_pixel_16_woods 1_12
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 96
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7bebe32c8dea049bc4f9787ab356f3
+      internalID: 1495635748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free_pixel_16_woods 1_13
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 96
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f2d791ca160d541ba5ab1dbb7dc30d
+      internalID: 1152703428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free_pixel_16_woods 1_14
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 64
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11ccbec702b419478b57c2117a77eb8
+      internalID: 995645241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free_pixel_16_woods 1_15
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 17
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec42f8b6b6700d46965151276a095eb
+      internalID: 1858668474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free_pixel_16_woods 1_16
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8a5711cf699924aa92bf89647bdd3d
+      internalID: 1887493611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free_pixel_16_woods 1_17
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 23
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4337cba0fb3744f9ce68a4fced4232
+      internalID: 141445693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free_pixel_16_woods 1_18
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 64
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b177fc469e6f2d42907b4c9133c0bf9
+      internalID: 418311088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free_pixel_16_woods 1_19
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b90c9df38276b340a9a0a18e1034b94
+      internalID: -1650247173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free_pixel_16_woods 1_20
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 25
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e3617cfecff7d478ff4995ecb699fd
+      internalID: 1559909093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free_pixel_16_woods 1_21
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 16
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32a7fbb35f7f6143be5dad7868c4237
+      internalID: -549756971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1f7c91841caae9f4dac1601d25eb70d1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      free_pixel_16_woods 1_0: 1484857307
+      free_pixel_16_woods 1_1: 9090708
+      free_pixel_16_woods 1_10: -42053134
+      free_pixel_16_woods 1_11: 459634421
+      free_pixel_16_woods 1_12: 1495635748
+      free_pixel_16_woods 1_13: 1152703428
+      free_pixel_16_woods 1_14: 995645241
+      free_pixel_16_woods 1_15: 1858668474
+      free_pixel_16_woods 1_16: 1887493611
+      free_pixel_16_woods 1_17: 141445693
+      free_pixel_16_woods 1_18: 418311088
+      free_pixel_16_woods 1_19: -1650247173
+      free_pixel_16_woods 1_2: -1645889996
+      free_pixel_16_woods 1_20: 1559909093
+      free_pixel_16_woods 1_21: -549756971
+      free_pixel_16_woods 1_3: 2136991454
+      free_pixel_16_woods 1_4: -1331419961
+      free_pixel_16_woods 1_5: -354265423
+      free_pixel_16_woods 1_6: 133012774
+      free_pixel_16_woods 1_7: 2004976276
+      free_pixel_16_woods 1_8: -1504603967
+      free_pixel_16_woods 1_9: -680401255
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
