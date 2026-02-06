@@ -164,7 +164,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5731886043221290923}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -266,49 +266,42 @@ MonoBehaviour:
   questList:
   - '[Chapter 1]
 
-    Pergi mencari pamannya untuk berpamitan
-
-    
-
-    Pergi
-    keluar desa untuk melanjutkan petualangan
-
-    
-
-    Habisi musuh untuk melanjutkan
-    petualangan'
+    Go to find his uncle to say goodbye'
   - '[Chapter 1]
 
-    Going to find his uncle to say goodbye'
-  - '
+    Leave the village to continue the adventure'
+  - '[Chapter 1]
 
-    [Chapter 2]
+    Defeat the enemies to continue the adventure'
+  - '[Chapter 2]
 
-    Habisi semua monster di hutan
-
-    
-
-    Hampiri
-    petualang di depan dan rekrut dia
-
-    
-
-    Habisi monster untuk menyelesaikan
-    chapter'
-  - '[Chapter 4]
-
-    Telusuri pemakaman sampai area tujuan
-
-    
-
-    Hampiri
-    sosok misterius
-
-    
-
-    Habisi musuh dan lanjutkan perjalanan'
-  - '[Chapter 5]
-
-    Kalahkan Raja Serigala
+    Defeat all monsters in the forest
 
 '
+  - '[Chapter 2]
+
+    Approach the adventurer in front and recruit him'
+  - '[Chapter 2]
+
+    Defeat the monsters to complete the chapter'
+  - '[Chapter 3]
+
+    Follow the signs to find the next path'
+  - '[Chapter 3]
+
+    Defeat the monsters blocking the path'
+  - '[Chapter 3]
+
+    Go to the next location'
+  - '[Chapter 4]
+
+    Explore the cemetery to the destination area'
+  - '[Chapter 4]
+
+    Approach the mysterious figure'
+  - '[Chapter 4]
+
+    Defeat the enemies and continue the journey'
+  - '[Chapter 5]
+
+    Defeat the Wolf King'
