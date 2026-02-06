@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3233590805773560973
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3071570202712600196, guid: d90577e898f465c48ac197d8064e39ca, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 583e681eb9a57164f9df2c7d17e3b603, type: 2}
+    - target: {fileID: 4264788882752559734, guid: d90577e898f465c48ac197d8064e39ca, type: 3}
+      propertyPath: battleComponents.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264788882752559734, guid: d90577e898f465c48ac197d8064e39ca, type: 3}
+      propertyPath: 'battleComponents.Array.data[0]'
+      value: 
+      objectReference: {fileID: 7447143383307780653}
+    - target: {fileID: 5456556009418665632, guid: d90577e898f465c48ac197d8064e39ca, type: 3}
+      propertyPath: characters
+      value: 
+      objectReference: {fileID: 11400000, guid: f642ce53a3997bb43981b0d5cbb32466, type: 2}
+    - target: {fileID: 5456556009418665632, guid: d90577e898f465c48ac197d8064e39ca, type: 3}
+      propertyPath: damageText
+      value: 
+      objectReference: {fileID: 4038342238294208516, guid: 03dc6344b3f5cbd48ad0624148aa2faf, type: 3}
+    - target: {fileID: 5456556009418665632, guid: d90577e898f465c48ac197d8064e39ca, type: 3}
+      propertyPath: damageTextPrefab
+      value: 
+      objectReference: {fileID: 4038342238294208516, guid: 03dc6344b3f5cbd48ad0624148aa2faf, type: 3}
+    - target: {fileID: 5541503824034402562, guid: d90577e898f465c48ac197d8064e39ca, type: 3}
+      propertyPath: _animationController
+      value: 
+      objectReference: {fileID: 5415351310983000153}
+    - target: {fileID: 6400198878371649211, guid: d90577e898f465c48ac197d8064e39ca, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6400198878371649211, guid: d90577e898f465c48ac197d8064e39ca, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 7014895605764508431, guid: d90577e898f465c48ac197d8064e39ca, type: 3}
+      propertyPath: m_Name
+      value: Dorothy Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8503815670944329776, guid: d90577e898f465c48ac197d8064e39ca, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1418365182033578365, guid: 72796fa45903d2b4d873178b046a9321, type: 3}
+    - target: {fileID: 9188071989890739417, guid: d90577e898f465c48ac197d8064e39ca, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -89.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 9188071989890739417, guid: d90577e898f465c48ac197d8064e39ca, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.55999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 9188071989890739417, guid: d90577e898f465c48ac197d8064e39ca, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9188071989890739417, guid: d90577e898f465c48ac197d8064e39ca, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9188071989890739417, guid: d90577e898f465c48ac197d8064e39ca, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9188071989890739417, guid: d90577e898f465c48ac197d8064e39ca, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9188071989890739417, guid: d90577e898f465c48ac197d8064e39ca, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9188071989890739417, guid: d90577e898f465c48ac197d8064e39ca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9188071989890739417, guid: d90577e898f465c48ac197d8064e39ca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9188071989890739417, guid: d90577e898f465c48ac197d8064e39ca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d90577e898f465c48ac197d8064e39ca, type: 3}
+--- !u!114 &5415351310983000153 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7478003876336786644, guid: d90577e898f465c48ac197d8064e39ca, type: 3}
+  m_PrefabInstance: {fileID: 3233590805773560973}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6d80f08e65cb74d89064c32e4b1687, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationController
+--- !u!114 &7447143383307780653 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5456556009418665632, guid: d90577e898f465c48ac197d8064e39ca, type: 3}
+  m_PrefabInstance: {fileID: 3233590805773560973}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03ce1d45178dbc7488e035a708fd0de0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BattleMovement
