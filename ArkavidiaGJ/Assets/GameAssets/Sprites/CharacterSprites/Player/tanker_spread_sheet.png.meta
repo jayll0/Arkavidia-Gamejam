@@ -1,0 +1,910 @@
+fileFormatVersion: 2
+guid: efe215d47b4c2d547943c615a95a4a60
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4172934645071030727
+    second: tanker_spread_sheet_0
+  - first:
+      213: 5547723069249303109
+    second: tanker_spread_sheet_1
+  - first:
+      213: 1461703984864184126
+    second: tanker_spread_sheet_2
+  - first:
+      213: -5000997513840038754
+    second: tanker_spread_sheet_3
+  - first:
+      213: 6149203127709565999
+    second: tanker_spread_sheet_4
+  - first:
+      213: -7103619695608911206
+    second: tanker_spread_sheet_5
+  - first:
+      213: 6282315705338533353
+    second: tanker_spread_sheet_6
+  - first:
+      213: -6506723353124337837
+    second: tanker_spread_sheet_7
+  - first:
+      213: -4009448841507494032
+    second: tanker_spread_sheet_8
+  - first:
+      213: 7028459204561236268
+    second: tanker_spread_sheet_9
+  - first:
+      213: -1771294967792009745
+    second: tanker_spread_sheet_10
+  - first:
+      213: -8467055259177795870
+    second: tanker_spread_sheet_11
+  - first:
+      213: -1411641537322936118
+    second: tanker_spread_sheet_12
+  - first:
+      213: -2248484327270941838
+    second: tanker_spread_sheet_13
+  - first:
+      213: 8227077392719727966
+    second: tanker_spread_sheet_14
+  - first:
+      213: -6440624484866406969
+    second: tanker_spread_sheet_15
+  - first:
+      213: -4998597268496366059
+    second: tanker_spread_sheet_16
+  - first:
+      213: -837073840496827474
+    second: tanker_spread_sheet_17
+  - first:
+      213: 2483351223694167299
+    second: tanker_spread_sheet_18
+  - first:
+      213: -8683189078069059377
+    second: tanker_spread_sheet_19
+  - first:
+      213: -6507683359334640915
+    second: tanker_spread_sheet_20
+  - first:
+      213: 8896326101553331316
+    second: tanker_spread_sheet_21
+  - first:
+      213: -3117982258433307326
+    second: tanker_spread_sheet_22
+  - first:
+      213: -1235741234766755180
+    second: tanker_spread_sheet_23
+  - first:
+      213: -5335171599024214415
+    second: tanker_spread_sheet_24
+  - first:
+      213: -554730607417521011
+    second: tanker_spread_sheet_25
+  - first:
+      213: 1498953574587196485
+    second: tanker_spread_sheet_26
+  - first:
+      213: -4772075025718355252
+    second: tanker_spread_sheet_27
+  - first:
+      213: -559693063422201362
+    second: tanker_spread_sheet_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tanker_spread_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 830
+        width: 109
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 936de99ac02c616c0800000000000000
+      internalID: -4172934645071030727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tanker_spread_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 830
+        width: 119
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54238d60db87dfc40800000000000000
+      internalID: 5547723069249303109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tanker_spread_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 659
+        width: 106
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e374a90a704094410800000000000000
+      internalID: 1461703984864184126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tanker_spread_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 663
+        width: 137
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9ce3f0f143e89ab0800000000000000
+      internalID: -5000997513840038754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tanker_spread_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 754
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2489de2aab565550800000000000000
+      internalID: 6149203127709565999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tanker_spread_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 664
+        width: 132
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a23cff58fda6d90800000000000000
+      internalID: -7103619695608911206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tanker_spread_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 471
+        width: 109
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e59f8f49d44f2750800000000000000
+      internalID: 6282315705338533353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tanker_spread_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 577
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 357094d959973b5a0800000000000000
+      internalID: -6506723353124337837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tanker_spread_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 468
+        width: 106
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07728d885839b58c0800000000000000
+      internalID: -4009448841507494032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tanker_spread_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 474
+        width: 108
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c21723e786a1a8160800000000000000
+      internalID: 7028459204561236268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tanker_spread_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 318
+        width: 162
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fedf15c8c981b67e0800000000000000
+      internalID: -1771294967792009745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tanker_spread_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 377
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eeba172a1afe7a80800000000000000
+      internalID: -8467055259177795870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tanker_spread_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 348
+        width: 76
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac81ea14087d86ce0800000000000000
+      internalID: -1411641537322936118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tanker_spread_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 341
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b7bf5da67cbc0e0800000000000000
+      internalID: -2248484327270941838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tanker_spread_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 244
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5dc4bcbc437c2270800000000000000
+      internalID: 8227077392719727966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tanker_spread_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 276
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c5cad7a72e4e96a0800000000000000
+      internalID: -6440624484866406969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tanker_spread_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 277
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 516490c944a61aab0800000000000000
+      internalID: -4998597268496366059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tanker_spread_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 249
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea32a6ee6cd1264f0800000000000000
+      internalID: -837073840496827474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tanker_spread_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 252
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30d82d4d7c2a67220800000000000000
+      internalID: 2483351223694167299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tanker_spread_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 245
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc0642cf98d1f7780800000000000000
+      internalID: -8683189078069059377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tanker_spread_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 253
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de25320c67010b5a0800000000000000
+      internalID: -6507683359334640915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tanker_spread_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 243
+        width: 49
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47c3f116479167b70800000000000000
+      internalID: 8896326101553331316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tanker_spread_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 257
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24dcc1ed7a3bab4d0800000000000000
+      internalID: -3117982258433307326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tanker_spread_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 261
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49acc6be4e3c9dee0800000000000000
+      internalID: -1235741234766755180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tanker_spread_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 252
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ea86892b9a5f5b0800000000000000
+      internalID: -5335171599024214415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tanker_spread_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 253
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c87de93733d48f0800000000000000
+      internalID: -554730607417521011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tanker_spread_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 233
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5446214955a5dc410800000000000000
+      internalID: 1498953574587196485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tanker_spread_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 229
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca5b823c0f26cdb0800000000000000
+      internalID: -4772075025718355252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tanker_spread_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 236
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee1387bcf129b38f0800000000000000
+      internalID: -559693063422201362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tanker_spread_sheet_0: -4172934645071030727
+      tanker_spread_sheet_1: 5547723069249303109
+      tanker_spread_sheet_10: -1771294967792009745
+      tanker_spread_sheet_11: -8467055259177795870
+      tanker_spread_sheet_12: -1411641537322936118
+      tanker_spread_sheet_13: -2248484327270941838
+      tanker_spread_sheet_14: 8227077392719727966
+      tanker_spread_sheet_15: -6440624484866406969
+      tanker_spread_sheet_16: -4998597268496366059
+      tanker_spread_sheet_17: -837073840496827474
+      tanker_spread_sheet_18: 2483351223694167299
+      tanker_spread_sheet_19: -8683189078069059377
+      tanker_spread_sheet_2: 1461703984864184126
+      tanker_spread_sheet_20: -6507683359334640915
+      tanker_spread_sheet_21: 8896326101553331316
+      tanker_spread_sheet_22: -3117982258433307326
+      tanker_spread_sheet_23: -1235741234766755180
+      tanker_spread_sheet_24: -5335171599024214415
+      tanker_spread_sheet_25: -554730607417521011
+      tanker_spread_sheet_26: 1498953574587196485
+      tanker_spread_sheet_27: -4772075025718355252
+      tanker_spread_sheet_28: -559693063422201362
+      tanker_spread_sheet_3: -5000997513840038754
+      tanker_spread_sheet_4: 6149203127709565999
+      tanker_spread_sheet_5: -7103619695608911206
+      tanker_spread_sheet_6: 6282315705338533353
+      tanker_spread_sheet_7: -6506723353124337837
+      tanker_spread_sheet_8: -4009448841507494032
+      tanker_spread_sheet_9: 7028459204561236268
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,7 +1,8 @@
-using UnityEngine;
-using System.Collections.Generic;
-using System;
 using Inventory.UI;
+using System;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Inventory
 {
@@ -16,14 +17,30 @@ namespace Inventory
 
         public int size = 10;
 
+        private bool isInBattle = false;
+
         private void Start()
         {
-            PrepareUI();
+            isInBattle = SceneManager.GetActiveScene().name == "BattleScene";
+
+            if (!isInBattle)
+            {
+                PrepareUI();
+            }
+
             PrepareInventoryData();
 
             if (_playerStatus == null)
             {
                 _playerStatus = FindObjectOfType<PlayerStatus>();
+            }
+        }
+
+        public void Update()
+        {
+            if (!isInBattle && Input.GetKeyUp(KeyCode.I))
+            {
+                ToggleInventory();
             }
         }
 
@@ -155,14 +172,6 @@ namespace Inventory
         {
             _inventoryUI.Hide();
             Time.timeScale = 1f;
-        }
-
-        public void Update()
-        {
-            if (Input.GetKeyUp(KeyCode.I))
-            {
-                ToggleInventory();
-            }
         }
     }
 }

@@ -127,13 +127,16 @@ GameObject:
   - component: {fileID: 9188071989890739417}
   - component: {fileID: 8503815670944329776}
   - component: {fileID: 4996339115394097699}
-  - component: {fileID: 5541503824034402562}
   - component: {fileID: 6400198878371649211}
   - component: {fileID: 3071570202712600196}
+  - component: {fileID: 5541503824034402562}
   - component: {fileID: 7751860065134020204}
   - component: {fileID: 8595603617943057415}
   - component: {fileID: 4172414047440972760}
   - component: {fileID: 8889386858601095071}
+  - component: {fileID: 4264788882752559734}
+  - component: {fileID: 7478003876336786644}
+  - component: {fileID: 5456556009418665632}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -243,24 +246,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &5541503824034402562
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7014895605764508431}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13ca61b16458cec42b8eb6fa77ae5396, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GuardianMovement
-  moveSpeed: 10
-  rb: {fileID: 4996339115394097699}
-  animator: {fileID: 3071570202712600196}
-  spriteRenderer: {fileID: 8503815670944329776}
-  _mapBoundary: {fileID: 0}
-  _padding: 0.5
 --- !u!61 &6400198878371649211
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -329,6 +314,25 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &5541503824034402562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7014895605764508431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13ca61b16458cec42b8eb6fa77ae5396, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GuardianMovement
+  moveSpeed: 10
+  rb: {fileID: 4996339115394097699}
+  animator: {fileID: 3071570202712600196}
+  spriteRenderer: {fileID: 8503815670944329776}
+  _mapBoundary: {fileID: 0}
+  _padding: 0.5
+  _animationController: {fileID: 0}
 --- !u!114 &7751860065134020204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -388,3 +392,45 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerStatus
   _character: {fileID: 11400000, guid: 6b8d7bb4324f27b4eba8f4cf01c4c23a, type: 2}
+--- !u!114 &4264788882752559734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7014895605764508431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f9d924a1a9eebc468541e8bc7e76a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneBasedComponents
+  openWorldComponents:
+  - {fileID: 5541503824034402562}
+  - {fileID: 8595603617943057415}
+  battleComponents: []
+--- !u!114 &7478003876336786644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7014895605764508431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6d80f08e65cb74d89064c32e4b1687, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationController
+--- !u!114 &5456556009418665632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7014895605764508431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03ce1d45178dbc7488e035a708fd0de0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BattleMovement
+  _animationController: {fileID: 7478003876336786644}
+  _transform: {fileID: 0}
