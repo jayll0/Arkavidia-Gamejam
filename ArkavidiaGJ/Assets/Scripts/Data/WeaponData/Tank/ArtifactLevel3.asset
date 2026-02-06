@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9daed6f47f905524eae8b9f56da499e2, type: 3}
+  m_Name: ArtifactLevel3
+  m_EditorClassIdentifier: Assembly-CSharp::Equipment
+  <IsStackAble>k__BackingField: 0
+  <MaxStackSize>k__BackingField: 1
+  <Name>k__BackingField: WoodShield
+  <Type>k__BackingField: 
+  <Description>k__BackingField: pieces of wood used as shields
+  <Attack>k__BackingField: 5000
+  <Defense>k__BackingField: 1000
+  <Speed>k__BackingField: 55
+  <Heal>k__BackingField: 6000
+  <Mana>k__BackingField: 150
+  <Image>k__BackingField: {fileID: 859865967270825792, guid: 41e085e54a72aeb4c8ed14a414d3d1d0, type: 3}
+  _modifierData:
+  - _statModifier: {fileID: 11400000, guid: 23b445c456ea5834994bcaa0ded724ef, type: 2}
+    value: 0
+  - _statModifier: {fileID: 11400000, guid: 3d1e8a81324de1e4d8a61135c50090a0, type: 2}
+    value: 0
+  - _statModifier: {fileID: 11400000, guid: a1fc38713b480ad49822ba15c5ba41d1, type: 2}
+    value: 0
+  - _statModifier: {fileID: 11400000, guid: a4cfe6f1d0da56941afbd4de8d047050, type: 2}
+    value: 0
+  - _statModifier: {fileID: 11400000, guid: 5b8f18693bc326346a16be8e2b47ebd2, type: 2}
+    value: 0
