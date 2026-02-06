@@ -1,9 +1,16 @@
 fileFormatVersion: 2
 guid: 5f74804f07254524e8bd0814d75b8b99
+AssetOrigin:
+  serializedVersion: 1
+  productId: 312875
+  packageName: Dialofy - Easy Dialogue System
+  packageVersion: 1.0.0
+  assetPath: Assets/Marav Assets/Dialogue System/Font/Jost-Italic-VariableFont_wght.ttf
+  uploadId: 756265
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
-  fontSize: 16
+  fontSize: 25
   forceTextureCase: -2
   characterSpacing: 0
   characterPadding: 1
@@ -19,10 +26,3 @@ TrueTypeFontImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 312875
-  packageName: Dialofy - Easy Dialogue System
-  packageVersion: 1.0.0
-  assetPath: Assets/Marav Assets/Dialogue System/Font/Jost-Italic-VariableFont_wght.ttf
-  uploadId: 756265
