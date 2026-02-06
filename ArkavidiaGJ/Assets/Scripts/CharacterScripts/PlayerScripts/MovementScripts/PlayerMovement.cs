@@ -16,6 +16,9 @@ public class GuardianMovement : MonoBehaviour
     [SerializeField] private BoxCollider2D _mapBoundary;
     [SerializeField] private float _padding = 0.5f;
 
+    [Header("Component")]
+    [SerializeField] private AnimationController _animationController;
+
     private Vector2 movementInput;
     private Vector2 lastMoveDirection;
     private float minX, maxX, minY, maxY;
@@ -44,7 +47,7 @@ public class GuardianMovement : MonoBehaviour
 
         movementInput = new Vector2(inputX, inputY).normalized;
 
-        HandleAnimationAndFlip(inputX, inputY);
+        _animationController.HandleAnimationAndFlip(inputX, inputY);
     }
 
     void FixedUpdate()
@@ -60,20 +63,5 @@ public class GuardianMovement : MonoBehaviour
         rb.MovePosition(newPosition);
     }
 
-    void HandleAnimationAndFlip(float x, float y)
-    {
-        bool isMoving = movementInput.magnitude > 0.01f;
-
-        if (isMoving)
-        {
-            animator.SetBool("IsMoving", true);
-
-            animator.SetFloat("MoveX", x * 0.5f);
-            animator.SetFloat("MoveY", y * 0.5f);
-        }
-        else
-        {
-            animator.SetBool("IsMoving", false);
-        }
-    }
+    
 }

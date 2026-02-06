@@ -1,0 +1,576 @@
+fileFormatVersion: 2
+guid: ff82711c35b1b69418989077fda320c9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5039050475572425520
+    second: doriti spreet sheet_0
+  - first:
+      213: 5442109883732156335
+    second: doriti spreet sheet_1
+  - first:
+      213: -6213965319744793904
+    second: doriti spreet sheet_2
+  - first:
+      213: 8665319038756123141
+    second: doriti spreet sheet_3
+  - first:
+      213: -8893575311826971874
+    second: doriti spreet sheet_4
+  - first:
+      213: -8403511313599536888
+    second: doriti spreet sheet_5
+  - first:
+      213: 5430871665801094427
+    second: doriti spreet sheet_6
+  - first:
+      213: 316162502609420098
+    second: doriti spreet sheet_7
+  - first:
+      213: -2600506119127652631
+    second: doriti spreet sheet_8
+  - first:
+      213: -1670015819782018453
+    second: doriti spreet sheet_9
+  - first:
+      213: 8898959232149274083
+    second: doriti spreet sheet_10
+  - first:
+      213: -3993231767859824570
+    second: doriti spreet sheet_11
+  - first:
+      213: 8645720251395622816
+    second: doriti spreet sheet_12
+  - first:
+      213: -884747032718303596
+    second: doriti spreet sheet_13
+  - first:
+      213: 9069699290187538205
+    second: doriti spreet sheet_14
+  - first:
+      213: -6161133424859747584
+    second: doriti spreet sheet_15
+  - first:
+      213: -7565406064249540911
+    second: doriti spreet sheet_16
+  - first:
+      213: 3622988640730711902
+    second: doriti spreet sheet_17
+  - first:
+      213: 333028999382667896
+    second: doriti spreet sheet_18
+  - first:
+      213: 5559656060544384215
+    second: doriti spreet sheet_19
+  - first:
+      213: 5504806184475532061
+    second: doriti spreet sheet_20
+  - first:
+      213: -7156836336403715856
+    second: doriti spreet sheet_21
+  - first:
+      213: -5563089917760703428
+    second: doriti spreet sheet_22
+  - first:
+      213: 760037754658940235
+    second: doriti spreet sheet_23
+  - first:
+      213: -8056894934149764946
+    second: doriti spreet sheet_24
+  - first:
+      213: 2761948917416875795
+    second: doriti spreet sheet_25
+  - first:
+      213: 4341343770091699996
+    second: doriti spreet sheet_26
+  - first:
+      213: 6213059935272484843
+    second: doriti spreet sheet_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: doriti spreet sheet_0
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 808
+        width: 89
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc0e3e5a42b11ab0800000000000000
+      internalID: -5039050475572425520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doriti spreet sheet_1
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 810
+        width: 89
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf5f701b12468b40800000000000000
+      internalID: 5442109883732156335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doriti spreet sheet_2
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 617
+        width: 95
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d2d306f67f83c9a0800000000000000
+      internalID: -6213965319744793904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doriti spreet sheet_3
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 621
+        width: 181
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 502fc7241c5614870800000000000000
+      internalID: 8665319038756123141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doriti spreet sheet_5
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 626
+        width: 148
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8016ce6ebfab06b80800000000000000
+      internalID: -8403511313599536888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doriti spreet sheet_6
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 421
+        width: 89
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b15eecc81055e5b40800000000000000
+      internalID: 5430871665801094427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doriti spreet sheet_7
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 429
+        width: 89
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24f355bfe1c336400800000000000000
+      internalID: 316162502609420098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doriti spreet sheet_8
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 433
+        width: 90
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e6aa25767529ebd0800000000000000
+      internalID: -2600506119127652631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doriti spreet sheet_9
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 249
+        width: 146
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a2c94c579e2d8e0800000000000000
+      internalID: -1670015819782018453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doriti spreet sheet_10
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 71
+        width: 108
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3edb0fed5447f7b70800000000000000
+      internalID: 8898959232149274083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doriti spreet sheet_15
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 111
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00be27d0bc14f7aa0800000000000000
+      internalID: -6161133424859747584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doriti spreet sheet_16
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 103
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dee1de8447420790800000000000000
+      internalID: -7565406064249540911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doriti spreet sheet_26
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 59
+        width: 132
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1fbb20582d8f3c30800000000000000
+      internalID: 4341343770091699996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doriti spreet sheet_27
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 65
+        width: 133
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: befb02ac719393650800000000000000
+      internalID: 6213059935272484843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6e0791bb40b89d946b7142b380d21f90
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      doriti spreet sheet_0: -5039050475572425520
+      doriti spreet sheet_1: 5442109883732156335
+      doriti spreet sheet_10: 8898959232149274083
+      doriti spreet sheet_11: -3993231767859824570
+      doriti spreet sheet_12: 8645720251395622816
+      doriti spreet sheet_13: -884747032718303596
+      doriti spreet sheet_14: 9069699290187538205
+      doriti spreet sheet_15: -6161133424859747584
+      doriti spreet sheet_16: -7565406064249540911
+      doriti spreet sheet_17: 3622988640730711902
+      doriti spreet sheet_18: 333028999382667896
+      doriti spreet sheet_19: 5559656060544384215
+      doriti spreet sheet_2: -6213965319744793904
+      doriti spreet sheet_20: 5504806184475532061
+      doriti spreet sheet_21: -7156836336403715856
+      doriti spreet sheet_22: -5563089917760703428
+      doriti spreet sheet_23: 760037754658940235
+      doriti spreet sheet_24: -8056894934149764946
+      doriti spreet sheet_25: 2761948917416875795
+      doriti spreet sheet_26: 4341343770091699996
+      doriti spreet sheet_27: 6213059935272484843
+      doriti spreet sheet_3: 8665319038756123141
+      doriti spreet sheet_4: -8893575311826971874
+      doriti spreet sheet_5: -8403511313599536888
+      doriti spreet sheet_6: 5430871665801094427
+      doriti spreet sheet_7: 316162502609420098
+      doriti spreet sheet_8: -2600506119127652631
+      doriti spreet sheet_9: -1670015819782018453
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4417696cde69f184e8fb9952b7525b8b, type: 3}
+  m_Name: Eisen
+  m_EditorClassIdentifier: Assembly-CSharp::Characters
+  <Name>k__BackingField: Eisen
+  <Health>k__BackingField: 100
+  <MaxHealth>k__BackingField: 100
+  <Mana>k__BackingField: 100
+  <MaxMana>k__BackingField: 100
+  <Attack>k__BackingField: 30
+  <Defense>k__BackingField: 50
+  <Speed>k__BackingField: 9
+  <MaxSpeed>k__BackingField: 0
+  <Image>k__BackingField: {fileID: 21300000, guid: be78f3762d5295446b207d21448dd9df, type: 3}
+  <Object>k__BackingField: {fileID: 7014895605764508431, guid: d90577e898f465c48ac197d8064e39ca, type: 3}
