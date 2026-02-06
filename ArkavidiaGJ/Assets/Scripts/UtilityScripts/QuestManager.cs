@@ -29,37 +29,82 @@ public class QuestManager : MonoBehaviour
 
     private void Start()
     {
-        // Tampilkan quest pertama saat game mulai
-        if (questList.Length > 0)
+        // Sinkronisasi quest index dengan enemy yang sudah dikalahkan
+        if (EnemyScript.instance != null)
         {
-            SetQuest(questList[currentQuestIndex]);
+            // Cek apakah baru menang battle
+            EnemyScript.instance.CheckAndClearBattleResult();
+
+            // Hitung quest index berdasarkan enemy yang sudah dikalahkan
+            int completedCount = EnemyScript.instance.GetCompletedQuestCount();
+            if (completedCount > currentQuestIndex)
+            {
+                currentQuestIndex = completedCount;
+            }
         }
+
+        UpdateQuestDisplay();
     }
 
     // Set teks quest secara manual
     public void SetQuest(string textBaru)
     {
-        questText.text = textBaru;
+        if (questText != null)
+            questText.text = textBaru;
+    }
+
+    // Complete quest by index
+    public void CompleteQuest(int questIndex)
+    {
+        if (EnemyScript.instance != null)
+        {
+            EnemyScript.instance.SetCurrentEnemyQuestIndex(questIndex);
+            EnemyScript.instance.OnBattleWon();
+        }
+
+        if (questIndex >= currentQuestIndex)
+        {
+            currentQuestIndex = questIndex + 1;
+        }
+
+        UpdateQuestDisplay();
     }
 
     // Lanjut ke quest berikutnya
     public void NextQuest()
     {
         currentQuestIndex++;
+        UpdateQuestDisplay();
+    }
+
+    // Cek apakah quest sudah selesai
+    public bool IsQuestCompleted(int questIndex)
+    {
+        if (EnemyScript.instance != null)
+        {
+            return EnemyScript.instance.IsQuestCompleted(questIndex);
+        }
+        return questIndex < currentQuestIndex;
+    }
+
+    // Ambil index quest saat ini
+    public int GetCurrentQuestIndex()
+    {
+        return currentQuestIndex;
+    }
+
+    // Update tampilan quest text
+    private void UpdateQuestDisplay()
+    {
+        if (questText == null) return;
 
         if (currentQuestIndex < questList.Length)
         {
-            SetQuest(questList[currentQuestIndex]);
+            questText.text = questList[currentQuestIndex];
         }
         else
         {
             questText.text = "Semua quest selesai!";
         }
-    }
-
-    // Ambil index quest saat ini (opsional)
-    public int GetCurrentQuestIndex()
-    {
-        return currentQuestIndex;
     }
 }

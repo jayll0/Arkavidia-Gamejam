@@ -3,18 +3,21 @@ using UnityEngine;
 public class QuestTrigger : MonoBehaviour
 {
     [TextArea] // Biar kolom isiannya lebar di Inspector
-    public string pesanQuest; 
+    public string pesanQuest;
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         // Pastikan Player kamu punya Tag "Player"
         if (other.CompareTag("Player"))
         {
             // Panggil QuestManager untuk ubah teks
-            QuestManager.Instance.SetQuest(pesanQuest);
-            
+            if (QuestManager.Instance != null)
+            {
+                QuestManager.Instance.SetQuest(pesanQuest);
+            }
+
             // Matikan trigger ini supaya gak kepanggil ulang
-            gameObject.SetActive(false); 
+            gameObject.SetActive(false);
         }
     }
 }

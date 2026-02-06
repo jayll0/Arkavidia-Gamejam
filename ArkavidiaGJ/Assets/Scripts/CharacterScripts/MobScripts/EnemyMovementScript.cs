@@ -1,6 +1,7 @@
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
+using System.Collections.Generic;
 
 public class EnemyMovementScript : MonoBehaviour
 {
@@ -20,11 +21,18 @@ public class EnemyMovementScript : MonoBehaviour
     [Header("Patrol Setting")]
     [SerializeField] private float _stopPatrolDistance = 0.5f;
 
+    [Header("Battle Setup")]
+    [SerializeField] private List<Characters> _enemyTeam = new List<Characters>();
+    [SerializeField] private int _questIndex = -1;
+    [SerializeField] private float _battleTriggerDistance = 1.5f;
+    [SerializeField] private bool _isBoss = false;
+
     private NavMeshAgent _agent;
 
     private float _timer;
     private bool _isIdle;
     private bool _isPlayerDetected = false;
+    private bool _battleTriggered = false;
 
     private Vector3 _originalPosition;
     private Vector3 _targetPosition;
@@ -32,6 +40,14 @@ public class EnemyMovementScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        // Kalau quest enemy ini sudah selesai (sudah dikalahkan), hancurkan
+        if (_questIndex >= 0 && EnemyScript.instance != null
+            && EnemyScript.instance.IsQuestCompleted(_questIndex))
+        {
+            Destroy(gameObject);
+            return;
+        }
+
         _agent = GetComponent<NavMeshAgent>();
         _agent.updateRotation = false;
         _agent.updateUpAxis = false;
@@ -42,7 +58,7 @@ public class EnemyMovementScript : MonoBehaviour
         if (_player == null)
         {
             GameObject player = GameObject.FindGameObjectWithTag("Player");
-            
+
             if (player != null)
             {
                 _player = player.transform;
@@ -56,15 +72,24 @@ public class EnemyMovementScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (_player == null || _battleTriggered) return;
+
         float distanceToPlayer = Vector3.Distance(transform.position, _player.position);
+
+        // Trigger battle ketika cukup dekat
+        if (distanceToPlayer <= _battleTriggerDistance)
+        {
+            TriggerBattle();
+            return;
+        }
 
         if (distanceToPlayer <= _detectionRadius)
         {
             _isPlayerDetected = true;
             _targetPosition = _player.position;
         }
-        else if (distanceToPlayer >= _stopDistance) 
-        { 
+        else if (distanceToPlayer >= _stopDistance)
+        {
             _isPlayerDetected = false;
         }
 
@@ -75,6 +100,25 @@ public class EnemyMovementScript : MonoBehaviour
         else
         {
             RandomMovement();
+        }
+    }
+
+    // Mulai battle dengan player
+    private void TriggerBattle()
+    {
+        if (_battleTriggered) return;
+        _battleTriggered = true;
+
+        if (EnemyScript.instance != null && _enemyTeam != null && _enemyTeam.Count > 0)
+        {
+            string currentScene = SceneManager.GetActiveScene().name;
+            EnemyScript.instance.SetCurrentEnemyQuestIndex(_questIndex);
+            EnemyScript.instance.StartBattle(_enemyTeam, currentScene);
+        }
+        else
+        {
+            Debug.LogWarning("Tidak bisa mulai battle: EnemyScript atau enemyTeam belum di-set!");
+            _battleTriggered = false;
         }
     }
 
@@ -128,7 +172,7 @@ public class EnemyMovementScript : MonoBehaviour
     void SetRandomDestination()
     {
         // Cek posisi valid sampe 10 kali
-        for (int i = 0; i < 10; i++) 
+        for (int i = 0; i < 10; i++)
         {
             Vector2 randomDirection = Random.insideUnitCircle * _moveRadius;
             Vector3 randomPosition = _originalPosition + new Vector3(randomDirection.x, randomDirection.y, 0);
@@ -180,6 +224,10 @@ public class EnemyMovementScript : MonoBehaviour
         // Stop chase radius (orange)
         Gizmos.color = new Color(1f, 0.5f, 0f);
         Gizmos.DrawWireSphere(transform.position, _stopDistance);
+
+        // Battle trigger radius (hijau)
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireSphere(transform.position, _battleTriggerDistance);
 
         // Movement radius (biru)
         Gizmos.color = Color.blue;

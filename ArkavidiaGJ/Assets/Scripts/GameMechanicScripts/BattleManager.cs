@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,6 +30,7 @@ public class BattleManager : MonoBehaviour
     [SerializeField] private bool autoDetectCharacters = true;
     [SerializeField] private float battleStartDelay = 0.5f;
     [SerializeField] private float turnEndDelay = 3.0f; // ✅ Delay sebelum next turn
+    [SerializeField] private float battleEndDelay = 3.0f; // Delay sebelum kembali ke world
 
     [Header("Target Selection")]
     [SerializeField] private int currentTargetIndex = 0; // Index enemy yang dipilih
@@ -459,6 +461,7 @@ public class BattleManager : MonoBehaviour
             Debug.Log("==============================");
             Debug.Log("       DEFEAT! YOU LOST       ");
             Debug.Log("==============================");
+            Invoke(nameof(HandleDefeat), battleEndDelay);
             return true;
         }
 
@@ -468,10 +471,33 @@ public class BattleManager : MonoBehaviour
             Debug.Log("==============================");
             Debug.Log("      VICTORY! YOU WIN!       ");
             Debug.Log("==============================");
+            Invoke(nameof(HandleVictory), battleEndDelay);
             return true;
         }
 
         return false;
+    }
+
+    private void HandleVictory()
+    {
+        if (EnemyScript.instance != null)
+        {
+            EnemyScript.instance.OnBattleWon();
+            EnemyScript.instance.ReturnToWorld();
+        }
+    }
+
+    private void HandleDefeat()
+    {
+        if (EnemyScript.instance != null)
+        {
+            EnemyScript.instance.OnBattleLost();
+            EnemyScript.instance.ReturnToWorld();
+        }
+        else
+        {
+            SceneManager.LoadScene("MainMenu");
+        }
     }
 
     public BattleEntity GetCurrentTurnEntity()
