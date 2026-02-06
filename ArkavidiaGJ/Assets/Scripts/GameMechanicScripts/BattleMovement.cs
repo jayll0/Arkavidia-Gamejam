@@ -142,12 +142,8 @@ public class BattleMovement : MonoBehaviour
                 Debug.Log($"{characters.Name}'s attack was blocked by {enemy.name}'s defense!");
             }
         }
-
-        // Lanjut ke turn berikutnya
-        BattleManager.Instance.NextTurn();
     }
 
-    // Method untuk UI button attack (alternatif)
     public void OnAttackButtonPressed()
     {
         if (isMyTurn)

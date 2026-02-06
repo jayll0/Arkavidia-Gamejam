@@ -16,6 +16,9 @@ public class BattleUIManager : MonoBehaviour
     [Header("Enemy Status Panels")]
     [SerializeField] private List<EnemyStatusUI> enemyPanels = new List<EnemyStatusUI>();
 
+    [Header("Action Buttons")]
+    [SerializeField] private ActionButtonPanel actionButtonPanel;
+
     [Header("Auto-Setup")]
     [SerializeField] private bool autoLinkCharacters = true; // Auto link saat Start
 
@@ -33,6 +36,12 @@ public class BattleUIManager : MonoBehaviour
 
     private void Start()
     {
+        // Get ActionButtonPanel if not assigned
+        if (actionButtonPanel == null)
+        {
+            actionButtonPanel = FindObjectOfType<ActionButtonPanel>();
+        }
+
         if (autoLinkCharacters)
         {
             // Delay sedikit untuk memastikan BattleManager sudah init
@@ -103,6 +112,49 @@ public class BattleUIManager : MonoBehaviour
         else
         {
             Debug.LogWarning($"Panel index {panelIndex} out of range!");
+        }
+    }
+
+    /// <summary>
+    /// Handle attack button click - dipanggil oleh ActionButtonPanel atau langsung dari UI
+    /// </summary>
+    public void OnAttackButtonClick()
+    {
+        if (BattleManager.Instance == null)
+        {
+            Debug.LogWarning("BattleManager not found!");
+            return;
+        }
+
+        var currentEntity = BattleManager.Instance.GetCurrentTurnEntity();
+
+        if (currentEntity == null || !currentEntity.isPlayer)
+        {
+            Debug.LogWarning("Not player's turn!");
+            return;
+        }
+
+        // Check if there are enemies
+        if (BattleManager.Instance.enemyCharacters.Count == 0)
+        {
+            Debug.LogWarning("No enemies to attack!");
+            return;
+        }
+
+        // Enter enemy selection mode
+        BattleManager.Instance.state = BattleManager.BattleState.SELECTENEMY;
+
+        Debug.Log("Entering enemy selection mode");
+    }
+
+    /// <summary>
+    /// Enable/disable action buttons
+    /// </summary>
+    public void SetActionButtonsActive(bool active)
+    {
+        if (actionButtonPanel != null)
+        {
+            actionButtonPanel.SetButtonsInteractable(active);
         }
     }
 

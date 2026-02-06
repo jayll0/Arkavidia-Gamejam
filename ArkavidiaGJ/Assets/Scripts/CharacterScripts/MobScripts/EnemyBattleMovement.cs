@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -112,18 +112,14 @@ public class EnemyBattleMovement : MonoBehaviour
 
     private IEnumerator AttackSequence(Transform playerPosition)
     {
+        if (hp <= 0) yield break;
+
         // Untuk enemy melee
         if (characters.Name != "Dorothy")
         {
-            BattleManager.currentDamage = characters.Attack;
-
-            // Pindah ke posisi attack
             transform.position = new Vector3(playerPosition.position.x + 2.5f, playerPosition.position.y);
             _animationController.HandleAttackAnimation();
-
             yield return new WaitForSeconds(attackDelay);
-
-            // Kembali ke posisi awal
             ReturnToPosition();
         }
 
@@ -157,7 +153,6 @@ public class EnemyBattleMovement : MonoBehaviour
             }
         }
 
-        // Lanjut ke turn berikutnya
-        BattleManager.Instance.NextTurn();
+        yield return new WaitForSeconds(0.5f);
     }
 }

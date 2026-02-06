@@ -7,6 +7,19 @@ public class BattleManager : MonoBehaviour
 {
     public static BattleManager Instance { get; private set; }
 
+    // Battle State Enum untuk kontrol flow battle
+    public enum BattleState
+    {
+        WAITING,        // Menunggu player input
+        SELECTENEMY,    // Player sedang pilih target untuk attack
+        PROCESSING,     // Sedang proses attack/action
+        ENEMYTURN,      // Giliran enemy
+        BATTLEEND       // Battle selesai
+    }
+
+    [Header("Battle State")]
+    public BattleState state = BattleState.WAITING;
+
     [Header("Battle Participants - Manual Assignment (Optional)")]
     [Tooltip("Kosongkan jika ingin auto-detect, atau isi manual di Inspector")]
     public List<BattleMovement> playerCharacters = new List<BattleMovement>();
@@ -15,6 +28,7 @@ public class BattleManager : MonoBehaviour
     [Header("Turn System Settings")]
     [SerializeField] private bool autoDetectCharacters = true;
     [SerializeField] private float battleStartDelay = 0.5f;
+    [SerializeField] private float turnEndDelay = 3.0f; // ✅ Delay sebelum next turn
 
     [Header("Target Selection")]
     [SerializeField] private int currentTargetIndex = 0; // Index enemy yang dipilih
@@ -55,8 +69,8 @@ public class BattleManager : MonoBehaviour
 
     private void Update()
     {
-        // Handle target selection dengan arrow keys
-        if (waitingForTargetSelection)
+        // Handle target selection dengan arrow keys (keyboard fallback)
+        if (state == BattleState.SELECTENEMY)
         {
             HandleTargetSelection();
         }
@@ -93,10 +107,10 @@ public class BattleManager : MonoBehaviour
             Debug.Log($"Target: {aliveEnemies[currentTargetIndex].gameObject.name} ({currentTargetIndex + 1}/{aliveEnemies.Count})");
         }
 
-        // Enter/Space - Confirm target dan attack
+        // Enter/Space - Confirm target dan attack (keyboard fallback)
         if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.Space))
         {
-            ConfirmTarget();
+            ConfirmTargetKeyboard();
         }
     }
 
@@ -131,7 +145,7 @@ public class BattleManager : MonoBehaviour
         }
     }
 
-    private void ConfirmTarget()
+    private void ConfirmTargetKeyboard()
     {
         if (currentTargetIndex >= 0 && currentTargetIndex < aliveEnemies.Count)
         {
@@ -178,6 +192,7 @@ public class BattleManager : MonoBehaviour
         if (turnOrder.Count > 0)
         {
             battleInitialized = true;
+            state = BattleState.WAITING;
             Debug.Log("Battle initialized successfully!");
             StartNextTurn();
         }
@@ -269,6 +284,7 @@ public class BattleManager : MonoBehaviour
         if (turnOrder.Count == 0)
         {
             Debug.Log("Battle ended - no participants left");
+            state = BattleState.BATTLEEND;
             return;
         }
 
@@ -281,22 +297,20 @@ public class BattleManager : MonoBehaviour
 
         if (current.isPlayer)
         {
-            // Set flag untuk menunggu player memilih target
-            waitingForTargetSelection = true;
+            // Player turn - set state ke WAITING agar button bisa diklik
+            state = BattleState.WAITING;
             selectedTarget = null;
-            currentTargetIndex = 0; // Reset ke target pertama
-
-            UpdateAliveEnemiesList();
-            UpdateTargetHighlight(); // Highlight target pertama
+            currentTargetIndex = 0;
 
             Debug.Log($">>> PLAYER TURN: {current.characterName} <<<");
-            Debug.Log("Use ← → Arrow Keys to select target, SPACE/ENTER to attack!");
+            Debug.Log("Waiting for player input... (Use buttons or arrow keys)");
 
             OnTurnChanged?.Invoke(currentTurnIndex);
         }
         else
         {
-            waitingForTargetSelection = false;
+            // Enemy turn
+            state = BattleState.ENEMYTURN;
             ClearAllHighlights();
 
             Debug.Log($">>> ENEMY TURN: {current.characterName} (Auto-attacking...) <<<");
@@ -324,7 +338,7 @@ public class BattleManager : MonoBehaviour
         if (alivePlayers.Count == 0)
         {
             Debug.Log("No alive players to attack");
-            NextTurn();
+            EndTurn();
             return;
         }
 
@@ -333,6 +347,9 @@ public class BattleManager : MonoBehaviour
 
         Debug.Log($"{enemy.gameObject.name} attacks {target.gameObject.name}");
         enemy.PerformMeleeAttack(target.transform);
+
+        // ✅ End turn setelah attack selesai (dengan delay)
+        Invoke(nameof(EndTurn), turnEndDelay);
     }
 
     public void PlayerAttackTarget(BattleMovement player, EnemyBattleMovement target)
@@ -340,15 +357,21 @@ public class BattleManager : MonoBehaviour
         if (target == null || target.hp <= 0)
         {
             Debug.Log("Invalid target!");
+            state = BattleState.WAITING; // ✅ Kembali ke WAITING jika target invalid
             return;
         }
+
+        // Set state ke PROCESSING
+        state = BattleState.PROCESSING;
 
         Debug.Log($"{player.gameObject.name} attacks {target.gameObject.name}");
         player.PerformMeleeAttack(target.transform);
 
         // Reset selection
-        waitingForTargetSelection = false;
         selectedTarget = null;
+
+        // ✅ End turn setelah attack selesai (dengan delay)
+        Invoke(nameof(EndTurn), turnEndDelay);
     }
 
     public void PlayerAttack(BattleMovement player)
@@ -366,26 +389,45 @@ public class BattleManager : MonoBehaviour
         if (aliveEnemies.Count == 0)
         {
             Debug.Log("No alive enemies to attack");
-            NextTurn();
+            EndTurn();
             return;
         }
+
+        // ✅ Set state ke PROCESSING sebelum attack
+        state = BattleState.PROCESSING;
 
         int randomIndex = UnityEngine.Random.Range(0, aliveEnemies.Count);
         EnemyBattleMovement target = aliveEnemies[randomIndex];
 
         Debug.Log($"{player.gameObject.name} attacks {target.gameObject.name}");
         player.PerformMeleeAttack(target.transform);
+
+        // ✅ End turn setelah attack selesai (dengan delay)
+        Invoke(nameof(EndTurn), turnEndDelay);
+    }
+
+    /// <summary>
+    /// Method untuk end turn - dipanggil setelah action selesai
+    /// </summary>
+    public void EndTurn()
+    {
+        // Cek apakah battle sudah selesai sebelum lanjut ke turn berikutnya
+        if (CheckBattleEnd()) return;
+
+        NextTurn();
     }
 
     public void NextTurn()
     {
         currentTurnIndex++;
 
+        // Refresh list untuk membuang karakter yang sudah mati/null
+        RefreshTurnOrder();
+
         if (currentTurnIndex >= turnOrder.Count)
         {
             currentTurnIndex = 0;
             Debug.Log("=== NEW ROUND ===");
-            RefreshTurnOrder();
         }
 
         StartNextTurn();
@@ -393,19 +435,13 @@ public class BattleManager : MonoBehaviour
 
     private void RefreshTurnOrder()
     {
-        int beforeCount = turnOrder.Count;
-
+        // Menghapus entitas yang HP nya 0 atau object-nya sudah di-destroy
         turnOrder.RemoveAll(e =>
             (e.isPlayer && (e.playerMovement == null || e.playerMovement.hp <= 0)) ||
             (!e.isPlayer && (e.enemyMovement == null || e.enemyMovement.hp <= 0))
         );
 
-        int afterCount = turnOrder.Count;
-        if (beforeCount != afterCount)
-        {
-            Debug.Log($"Turn order updated: {beforeCount} -> {afterCount} participants");
-        }
-
+        // Proteksi: Jika index out of range setelah penghapusan
         if (currentTurnIndex >= turnOrder.Count && turnOrder.Count > 0)
         {
             currentTurnIndex = 0;
@@ -419,6 +455,7 @@ public class BattleManager : MonoBehaviour
 
         if (!anyPlayerAlive)
         {
+            state = BattleState.BATTLEEND;
             Debug.Log("==============================");
             Debug.Log("       DEFEAT! YOU LOST       ");
             Debug.Log("==============================");
@@ -427,6 +464,7 @@ public class BattleManager : MonoBehaviour
 
         if (!anyEnemyAlive)
         {
+            state = BattleState.BATTLEEND;
             Debug.Log("==============================");
             Debug.Log("      VICTORY! YOU WIN!       ");
             Debug.Log("==============================");
@@ -451,6 +489,7 @@ public class BattleManager : MonoBehaviour
         battleInitialized = false;
         currentTurnIndex = 0;
         turnOrder.Clear();
+        state = BattleState.WAITING;
         InitializeBattle();
     }
 
